@@ -1,0 +1,47 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+#app {
+  display: flex;
+  height: 100%;
+}
+
+#map {
+  flex: 1;
+  height: 100%;
+}
+
+#story-content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+#media {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+#media img,
+#media iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+#navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
