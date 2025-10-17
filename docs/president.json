@@ -9,7 +9,7 @@
                     "text": "September 2013: events taken from the WhiteHouse.gov site."
                 },
                 "media": {
-                    "url": "http://en.wikipedia.org/wiki/Barack_Obama",
+                    "url": "https://en.wikipedia.org/wiki/Barack_Obama",
                     "credit": "wikipedia",
                     "caption": "President Barack Obama wikipedia"
                 }
@@ -26,17 +26,17 @@
                     "zoom": 10,
                     "lat": "38.815477",
                     "line": true,
-                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                    "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                 },
                 "media": {
-                    "url": "http://upload.wikimedia.org/wikipedia/commons/2/2e/US_Navy_050521-N-0295M-026_Air_Force_One_takes_off_from_Andrews_Air_Force_Base,_Md.,_during_the_2005_Joint_Service_Open_House.jpg",
+                    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/US_Navy_050521-N-0295M-026_Air_Force_One_takes_off_from_Andrews_Air_Force_Base,_Md.,_during_the_2005_Joint_Service_Open_House.jpg",
                     "credit": "wikipedia",
                     "caption": "Air Force One"
                 }
             },
             {
                 "background": {
-                    "url": "http://upload.wikimedia.org/wikipedia/en/4/4c/Flag_of_Sweden.svg",
+                    "url": "https://upload.wikimedia.org/wikipedia/en/4/4c/Flag_of_Sweden.svg",
                     "color": "#cdbfe3",
                     "opacity": 25
                 },
@@ -51,10 +51,10 @@
                     "zoom": 10,
                     "lat": "59.642851",
                     "line": true,
-                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                    "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                 },
                 "media": {
-                    "url": "http://www.youtube.com/watch?v=Sa5pVSNoBXk",
+                    "url": "https://www.youtube.com/watch?v=Sa5pVSNoBXk",
                     "credit": "The White House YouTube",
                     "caption": "President Obama and Prime Minister Reinfeldt of Sweden hold a joint press conference. September 4, 2013."
                 }
@@ -71,7 +71,7 @@
                     "zoom": 10,
                     "lat": "59.326743",
                     "line": true,
-                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                    "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                 },
                 "media": {
                     "url": "https://web.archive.org/web/20130914164108if_/http://www.thetimes.co.uk/tto/multimedia/archive/00448/136109075__448536c.jpg",
@@ -91,17 +91,17 @@
                     "zoom": 10,
                     "lat": "59.80616",
                     "line": true,
-                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                    "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                 },
                 "media": {
-                    "url": "http://www.youtube.com/watch?v=EkNzAuxhZA8",
+                    "url": "https://www.youtube.com/watch?v=EkNzAuxhZA8",
                     "credit": "sealight films",
                     "caption": "President Obama arrives at G-20 dinner"
                 }
             },
             {
                 "background": {
-                    "url": "http://gorod94.com/images/st-petersburg-sightseeing-08.jpg",
+                    "url": "https://gorod94.com/images/st-petersburg-sightseeing-08.jpg",
                     "color": "#cdbfe3",
                     "opacity": 25
                 },
@@ -116,10 +116,10 @@
                     "zoom": 10,
                     "lat": "38.896419",
                     "line": true,
-                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                    "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                 },
                 "media": {
-                    "url": "http://www.youtube.com/watch?v=nWPBJY8KDa8",
+                    "url": "https://www.youtube.com/watch?v=nWPBJY8KDa8",
                     "credit": "The White House YouTube",
                     "caption": "President Obama holds a press conference at the G20 Summit in St. Petersburg, Russia. September 6, 2013."
                 }
@@ -136,10 +136,10 @@
                     "zoom": 10,
                     "lat": "38.89783",
                     "line": true,
-                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                    "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                 },
                 "media": {
-                    "url": "http://farm4.static.flickr.com/3612/3684028152_69c7133162_b.jpg",
+                    "url": "https://farm4.static.flickr.com/3612/3684028152_69c7133162_b.jpg",
                     "credit": "Flickr",
                     "caption": "President Obama in Oval Office"
                 }
@@ -156,7 +156,7 @@
                     "zoom": 10,
                     "lat": "38.889905",
                     "line": true,
-                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                    "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                 },
                 "media": {
                     "url": "https://www.youtube.com/watch?v=y52LeaK6tHA",
@@ -176,10 +176,10 @@
                     "zoom": 10,
                     "lat": "38.870387",
                     "line": true,
-                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                    "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                 },
                 "media": {
-                    "url": "http://a.abcnews.com/images/Politics/GTY_obama_michelle_biden_pentagon_tk_130911_16x9_992.jpg",
+                    "url": "https://a.abcnews.com/images/Politics/GTY_obama_michelle_biden_pentagon_tk_130911_16x9_992.jpg",
                     "credit": "John Parkinson",
                     "caption": "Moment of silence at the White House"
                 }
@@ -196,7 +196,7 @@
                     "zoom": 10,
                     "lat": "38.897713",
                     "line": true,
-                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                    "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                 },
                 "media": {
                     "url": "https://files.manuscdn.com/user_upload_by_module/session_file/106356824/CLLJaCaqqSwpogfZ.jpg",
@@ -216,7 +216,7 @@
                     "zoom": 10,
                     "lat": "38.897713",
                     "line": true,
-                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                    "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                 },
                 "media": {
                     "url": "https://www.youtube.com/watch?v=MVSfAWUwAzc",
@@ -236,7 +236,7 @@
                     "zoom": 10,
                     "lat": "38.897713",
                     "line": true,
-                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                    "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                 },
                 "media": {
                     "url": "https://www.youtube.com/watch?v=sP_DdESn7AQ",
@@ -256,7 +256,7 @@
                     "zoom": 10,
                     "lat": "38.897713",
                     "line": true,
-                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                    "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                 },
                 "media": {
                     "url": "https://files.manuscdn.com/user_upload_by_module/session_file/106356824/mBaouhsEArhebwSd.jpg",
@@ -276,7 +276,7 @@
                     "zoom": 10,
                     "lat": "38.895442",
                     "line": true,
-                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                    "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                 },
                 "media": {
                     "url": "https://www.youtube.com/watch?v=rkM32oQfHlk",
@@ -296,7 +296,7 @@
                     "zoom": 10,
                     "lat": "38.903057",
                     "line": true,
-                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                    "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                 },
                 "media": {
                     "url": "https://files.manuscdn.com/user_upload_by_module/session_file/106356824/HFrOPpYvOHXbXOxN.jpg",
@@ -306,7 +306,7 @@
             },
             {
                 "background": {
-                    "url": "http://s.wsj.net/public/resources/images/OB-YZ561_Obama2_E_20130920154351.jpg",
+                    "url": "https://s.wsj.net/public/resources/images/OB-YZ561_Obama2_E_20130920154351.jpg",
                     "color": "#cdbfe3",
                     "opacity": 25
                 },
@@ -321,7 +321,7 @@
                     "zoom": 10,
                     "lat": "39.204441",
                     "line": true,
-                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                    "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                 },
                 "media": {
                     "url": "https://twitter.com/WhiteHouse/status/381114492215513088",
@@ -341,7 +341,7 @@
                     "zoom": 10,
                     "lat": "40.756847",
                     "line": true,
-                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                    "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                 },
                 "media": {
                     "url": "https://files.manuscdn.com/user_upload_by_module/session_file/106356824/lHIRviFkqqupabZv.jpg",
@@ -361,7 +361,7 @@
                     "zoom": 10,
                     "lat": "40.749305",
                     "line": true,
-                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                    "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                 },
                 "media": {
                     "url": "https://www.youtube.com/watch?v=zBgzjbxGlX4",
@@ -381,7 +381,7 @@
                     "zoom": 10,
                     "lat": "38.903057",
                     "line": true,
-                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                    "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                 },
                 "media": {
                     "url": "https://soundcloud.com/carolebphotographe/4-muddy-waters-louisiana-blues",
@@ -401,7 +401,7 @@
                     "zoom": 10,
                     "lat": "38.889379",
                     "line": true,
-                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                    "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                 },
                 "media": {
                     "url": "https://vimeo.com/62707231",
@@ -421,10 +421,10 @@
                     "zoom": 10,
                     "lat": "38.903057",
                     "line": true,
-                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                    "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                 },
                 "media": {
-                    "url": "http://upload.wikimedia.org/wikipedia/commons/thumb/9/94/U.S._Territorial_Acquisitions.png/1280px-U.S._Territorial_Acquisitions.png",
+                    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/U.S._Territorial_Acquisitions.png/1280px-U.S._Territorial_Acquisitions.png",
                     "credit": "wikimedia",
                     "caption": "United States Territories"
                 }
@@ -441,7 +441,7 @@
                     "zoom": 10,
                     "lat": "38.903057",
                     "line": true,
-                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                    "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                 },
                 "media": {
                     "url": "https://www.youtube.com/watch?v=M4KIkjIiJrc",
