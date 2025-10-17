@@ -1,0 +1,190 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+#app {
+    height: 100%;
+    overflow: hidden;
+}
+
+/* Desktop default: side by side */
+#map {
+    width: 50%;
+    height: 100vh;
+    flex-shrink: 0;
+}
+
+#story-content {
+    width: 50%;
+    height: 100vh;
+    padding: 20px;
+    overflow-y: auto;
+    color: white;
+    background-color: #000000;
+    position: relative;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+/* Gradient border effect on desktop (side-by-side layout) */
+#map::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    background: linear-gradient(to right, transparent, #000000);
+    pointer-events: none;
+    z-index: 1;
+}
+
+/* Mobile: stacked layout */
+@media (max-width: 39.99em) {
+    #app {
+        flex-direction: column !important;
+    }
+    
+    #map {
+        width: 100%;
+        height: 50vh;
+        min-height: 300px;
+    }
+    
+    #story-content {
+        width: 100%;
+        height: 50vh;
+    }
+    
+    /* Hide gradient border on mobile */
+    #map::after {
+        display: none;
+    }
+}
+
+#content-wrapper {
+    position: relative;
+    z-index: 2;
+    max-width: 100%;
+    word-wrap: break-word;
+}
+
+#media {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+#media img {
+    max-width: 100%;
+    height: auto;
+}
+
+#media iframe {
+    max-width: 100%;
+    min-height: 480px;
+    border: none;
+}
+
+#navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #334155;
+    color: #F8F9FA;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #787C85;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+/* Animation classes for content transitions */
+.slide-out-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    animation: slideOutLeft 0.5s ease-in-out;
+}
+
+.slide-in-right {
+    animation: slideInRight 0.5s ease-in-out;
+}
+
+.slide-out-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    animation: slideOutRight 0.5s ease-in-out;
+}
+
+.slide-in-left {
+    animation: slideInLeft 0.5s ease-in-out;
+}
+
+@keyframes slideOutLeft {
+    from {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateX(-120%);
+        opacity: 0;
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideOutRight {
+    from {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateX(120%);
+        opacity: 0;
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

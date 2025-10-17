@@ -1,0 +1,2058 @@
+{
+    "languages": {
+        "en": {
+            "name": "English",
+            "code": "en"
+        },
+        "es": {
+            "name": "Español",
+            "code": "es"
+        },
+        "pt": {
+            "name": "Português",
+            "code": "pt"
+        }
+    },
+    "storymaps": {
+        "en": {
+            "storymap": {
+                "language": "en",
+                "call_to_action": true,
+                "slides": [
+                    {
+                        "media": {
+                            "url": "",
+                            "caption": "",
+                            "credit": ""
+                        },
+                        "location": {
+                            "line": true,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "background": {},
+                        "text": {
+                            "headline": "THE ROUTES OF ILLEGAL GOLD",
+                            "text": "<p><span>Illegal mining in South America is one of the main threats to the ecosystem. A team from <b>OjoPúblico</b> visited the centers of illegal gold production in Peru, Bolivia, Colombia, Brazil, and Ecuador, and verified the ways in which illegally sourced metal is incorporated into commercial chains.</span><br></p><p><b><a href=\"http://infoamazonia.org/es/\" target=\"_blank\" rel=\"nofollow\" title=\"Link: http://infoamazonia.org/es/\">Map: Infoamazonía (Terra i Initiative - Ciat)</a></b></p><p><a href='https://infoamazonia.org/en/2015/06/10/interactive-map-know-illegal-gold-routes-in-south-america/'>Interactive map: Know illegal gold routes in South America</a></p>"
+                        },
+                        "date": "",
+                        "type": "overview"
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "",
+                            "caption": "",
+                            "credit": ""
+                        },
+                        "location": {
+                            "lat": -12.046374,
+                            "line": true,
+                            "lon": -77.0427934,
+                            "zoom": 4,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "PERU",
+                            "text": "<p>It is the fifth largest gold producer in the world and the leading one in Latin America. Illegal mining operations, which have caused the most devastation on the coast, the highlands, and the Amazon, are concentrated in the south of Peru: Cusco, Puno, Madre de Dios, among other regions.<br></p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/aeropuerto_andina_720.png",
+                            "caption": "",
+                            "credit": "Andina"
+                        },
+                        "location": {
+                            "lat": -12.048834551361109,
+                            "line": true,
+                            "lon": -77.13697062812503,
+                            "zoom": 12,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><b>LIMA - CALLAO</b></p><p>Neuralgic point for gold trade, both legal and illegal in origin. The metal passes through the customs warehouses of Callao before being taken to the Jorge Chávez international airport and sent to the U.S., Europe, and Asia.</p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Puerto Maldonado_A.Cordova.jpg",
+                            "caption": "",
+                            "credit": "Audrey Córdova"
+                        },
+                        "location": {
+                            "lat": -12.5909084,
+                            "line": true,
+                            "lon": -69.1963141,
+                            "zoom": 6,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "background": {},
+                        "text": {
+                            "headline": "",
+                            "text": "<p><b>PUERTO MALDONADO</b></p><p>Capital of Madre de Dios. Here are the main gold trading and exporting companies in the region with branches in Huepetuhe, Juliaca, Mazuko, and Cusco. For years, the gold extracted from this area ended up in Switzerland.</p>\n<p><br>\n</p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Huepetuhe-Audrey Córdova.jpg",
+                            "caption": "",
+                            "credit": "Audrey Córdova"
+                        },
+                        "location": {
+                            "lat": -13.017938075150177,
+                            "line": true,
+                            "lon": -70.5215835571289,
+                            "zoom": 12,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><b>HUEPETUHE</b><br></p>\n<p><span>It is the main gold extraction region in Madre de Dios. In the 90s, the sale of heavy machinery to miners began. Today it is one of the most devastated areas in Peru.</span></p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/La Pampa Andina.jpg",
+                            "caption": "",
+                            "credit": "Andina"
+                        },
+                        "location": {
+                            "lat": -12.933784892850651,
+                            "line": true,
+                            "lon": -70.02303529140625,
+                            "zoom": 9,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><b>LA PAMPA</b></p><p>Name used to refer to the expanse of devastated territory that is near the Interoceanic Highway, and that reaches up to the Tambopata National Reserve.</p>\n<p><br>\n</p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Mazuco_A.Cordova.jpg",
+                            "caption": "",
+                            "credit": "Audrey Córdova"
+                        },
+                        "location": {
+                            "lat": -13.085497691047646,
+                            "line": true,
+                            "lon": -70.40794372558594,
+                            "zoom": 12,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><b>MAZUKO</b></p>\n<p>Illegal mining area on the border of Cusco with Madre de Dios. In recent years, illegal mining activity has increased.</p>\n<p><br>\n</p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Cusco.jpg",
+                            "caption": "",
+                            "credit": "Audrey Córdova"
+                        },
+                        "location": {
+                            "lat": -13.53195,
+                            "line": true,
+                            "lon": -71.96746259999998,
+                            "zoom": 15,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><b>CUSCO</b></p>\n<p>The Imperial City is home to a group of gold exporters from Madre de Dios.</p>\n<p><br>\n</p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/JULIACA-AUDREYCORDOVA-AC6A1201.JPG",
+                            "caption": "",
+                            "credit": "Audrey Córdova"
+                        },
+                        "location": {
+                            "lat": -15.4996879,
+                            "line": true,
+                            "lon": -70.12965299999996,
+                            "zoom": 14,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><b>JULIACA</b></p>\n<p>In\nthis city are concentrated the main exporters and\ntraders of Puno, who collect the gold coming from Ananea, on the border with Bolivia.</p>\n<p><br>\n</p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Ananea_OCastilla.jpg",
+                            "caption": "",
+                            "credit": "Óscar Castilla"
+                        },
+                        "location": {
+                            "lat": -14.67837048718198,
+                            "line": true,
+                            "lon": -69.53522532275394,
+                            "zoom": 16,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><b>ANANEA</b></p>\n<p>District\nthat concentrates the most important mining exploitation area of&nbsp;Puno: La Rinconada.\t</p>\n<p><br>\n</p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/La Rinconada El Comercio.JPG",
+                            "caption": "",
+                            "credit": "El Comercio"
+                        },
+                        "location": {
+                            "lat": -14.622413074954345,
+                            "line": true,
+                            "lon": -69.44496631622314,
+                            "zoom": 16,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><b>LA RINCONADA</b></p>\n<p><span>Thousands of miners work in this cold region located on the Puno high plateau, a few kilometers from the border with northern La Paz. The heavy machinery used here has removed tons of earth in recent years.</span></p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Desaguadero-Audrey Cordova.jpg",
+                            "caption": "",
+                            "credit": "Audrey Córdova"
+                        },
+                        "location": {
+                            "lat": -16.564914447891056,
+                            "line": true,
+                            "lon": -69.03951523544316,
+                            "zoom": 16,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><span><b>DESAGUADERO</b><br><span>Main border post between Puno and La Paz and center of smuggling trade between both countries.</span></span></p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "",
+                            "caption": "",
+                            "credit": ""
+                        },
+                        "location": {
+                            "lat": -16.290154,
+                            "line": true,
+                            "lon": -63.58865300000002,
+                            "zoom": 5,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "Bolivia",
+                            "text": "<p>A group of mining cooperatives dominate gold production in the northern area of La Paz and in the Amazon rainforest of Pando and Beni, near Brazil.</p>\n<p><br>\n</p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/La Paz Audrey Cordova.jpg",
+                            "caption": "",
+                            "credit": "Audrey Córdova"
+                        },
+                        "location": {
+                            "lat": -16.49563694043469,
+                            "line": true,
+                            "lon": -68.1333446502685,
+                            "zoom": 16,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><b>LA PAZ</b></p><p>Capital of Bolivia. It concentrates the largest number of exporting companies of the gold extracted in the neighboring country to the south.</p>\n<p><br>\n</p>\n<p><br>\n</p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/pelechuco_A_Cordova.jpg",
+                            "caption": "",
+                            "credit": "Audrey Córdova"
+                        },
+                        "location": {
+                            "lat": -14.8198404,
+                            "line": true,
+                            "lon": -69.07168969999998,
+                            "zoom": 13,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><b>PELECHUCO</b></p>\n<p>Highland city in the north of La Paz where artisanal mining is practiced. It is located five hours from the Bolivian capital.</p>\n<p><br>\n</p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Chejepampa Audrey Cordova.jpg",
+                            "caption": "",
+                            "credit": "Audrey Córdova"
+                        },
+                        "location": {
+                            "lat": -14.796459541767938,
+                            "line": true,
+                            "lon": -69.3460464477539,
+                            "zoom": 12,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><b>CHEJEPAMPA</b></p>\n<p>Remote area located twelve hours from La Paz. Here rises one of the main fairs for gold trade and smuggling. Buyers come to this place, crossed by the Suches River, from the border with Peru.</p>\n<p><br>\n</p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Riveralta_A_Cordova.jpg",
+                            "caption": "",
+                            "credit": "Audrey Córdova"
+                        },
+                        "location": {
+                            "lat": -11.004352871236097,
+                            "line": true,
+                            "lon": -66.06477510058596,
+                            "zoom": 12,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><b>RIBERALTA</b></p>\n<p>Bolivian city located in the province of Beni, in the heart of the Amazon of said country and on the border with Brazil. Mining activity in this area is concentrated in its rivers.</p>\n<p><br>\n</p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Guayaramerin-Oscar Castilla.jpg",
+                            "caption": "",
+                            "credit": "Óscar Castilla"
+                        },
+                        "location": {
+                            "lat": -10.81836241368672,
+                            "line": true,
+                            "lon": -65.35441394433599,
+                            "zoom": 12,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><b>GUAYARAMERÍN</b></p>\n<p>Bolivian town on the border with the Brazilian state of Rondonia. Place of gold smuggling between both countries.</p>\n<p><br>\n</p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "",
+                            "caption": "",
+                            "credit": ""
+                        },
+                        "location": {
+                            "lat": -9.07216546032147,
+                            "line": true,
+                            "lon": -51.74949874999999,
+                            "zoom": 4,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "BRAZIL",
+                            "text": "<p>The\nlargest country in South America and one of the biggest gold producers\nin the region after Peru. It has large mining companies,\nbut also significant illegal mining activity in the\nstates of Pará, Mato Grosso, Roraima, Amapá, and Rondonia.</p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Sao Paulo Audrey Cordova.jpg",
+                            "caption": "",
+                            "credit": ""
+                        },
+                        "location": {
+                            "lat": -23.5431786,
+                            "line": true,
+                            "lon": -46.62918450000001,
+                            "zoom": 9,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><b>SAO PAULO</b></p>\n<p><span>One of the main cities in Brazil and a center for gold trade coming from different regions of the country.</span></p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Porto Velho-Oscar Castilla.jpg",
+                            "caption": "",
+                            "credit": "Óscar Castilla"
+                        },
+                        "location": {
+                            "lat": -8.761160499999999,
+                            "line": true,
+                            "lon": -63.90043029999998,
+                            "zoom": 9,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><b>PORTO VELHO</b></p><b>\n</b><p><span>Capital of Rondonia. Here illegal mining is practiced on the banks of the Madeira River through dredges.</span></p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "",
+                            "caption": "",
+                            "credit": ""
+                        },
+                        "location": {
+                            "lat": -10.775638537653732,
+                            "line": true,
+                            "lon": -65.33020019531244,
+                            "zoom": 12,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<b>GUAJA MIRIN</b><br>\n\t\n\t\n\t\n\n\n<p><span>Brazilian settlement on the border with the Bolivian state of Beni. Place of gold smuggling between both countries.</span></p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "",
+                            "caption": "",
+                            "credit": ""
+                        },
+                        "location": {
+                            "lat": 3.869653935834161,
+                            "line": true,
+                            "lon": -73.08883690624998,
+                            "zoom": 6,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "COLOMBIA",
+                            "text": "<p><span>87% of the gold-producing units in the country operate outside the law, and most are associated with illegal armed groups, such as the FARC. The most affected regions are: Antioquia, Chocó, and Caquetá.</span></p><p><br>\n</p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Medellin_IvánErreJota.jpg",
+                            "caption": "",
+                            "credit": "Iván Erre Jota"
+                        },
+                        "location": {
+                            "lat": 6.244203,
+                            "line": true,
+                            "lon": -75.58121189999997,
+                            "zoom": 11,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<span><b>MEDELLÍN<br></b>In the capital of Antioquia, the majority of Colombia's 60 gold exporting companies are concentrated.</span>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Chocó_Minería_Colombia_CentroMemoria.jpg",
+                            "caption": "",
+                            "credit": "Centro de la Memoria"
+                        },
+                        "location": {
+                            "lat": 4.981505049328245,
+                            "line": true,
+                            "lon": -76.75048828125,
+                            "zoom": 8,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><span><b>CHOCÓ</b><br>It is\nthe largest center of illegal gold production in Colombia.\nNo&nbsp;<span>producing unit has a mining exploitation title.</span></span></p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Antioquia_Carder_Colombia.jpeg",
+                            "caption": "",
+                            "credit": "carder.gov.co"
+                        },
+                        "location": {
+                            "lat": 6.559121457444521,
+                            "line": true,
+                            "lon": -75.82732389941407,
+                            "zoom": 12,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><span><b>ANTIOQUIA</b><br>90% of the mining in this region is informal. From this department, gold is exported mainly to the United States and Switzerland.</span></p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Dragas_Caquetá.JPG",
+                            "caption": "",
+                            "credit": "Nelly Luna"
+                        },
+                        "location": {
+                            "lat": 0.869892,
+                            "line": true,
+                            "lon": -73.8419063,
+                            "zoom": 6,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><span><b>CAQUETÁ</b><br>During the last 10 years, the dredges that extract gold from the Caquetá River, in the surroundings of the Araracuara area, have <span>increased. Indigenous peoples are the most affected.</span></span></p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "",
+                            "caption": "",
+                            "credit": ""
+                        },
+                        "location": {
+                            "lat": 10.445791,
+                            "line": true,
+                            "lon": -75.36850099999998,
+                            "zoom": 12,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<b>BOLÍVAR</b><br><span>In this department of Colombia, 87% of informal gold production units use mercury.</span><br>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "",
+                            "caption": "",
+                            "credit": ""
+                        },
+                        "location": {
+                            "lat": -1.0844157916688364,
+                            "line": true,
+                            "lon": -78.48003685937499,
+                            "zoom": 7,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "ECUADOR",
+                            "text": "<p><span>The mining settlements in five provinces bordering Peru and also Colombia are the main hotspots of illegal mining. 70% of the gold produced in this country is not declared to the State.</span></p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Jose_Vilchez_Guayaquil.jpg",
+                            "caption": "",
+                            "credit": "José Vilchez"
+                        },
+                        "location": {
+                            "lat": -2.1998160352199365,
+                            "line": true,
+                            "lon": -79.92922565507814,
+                            "zoom": 11,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<b>GUAYAQUIL<br></b>The gold extracted from its main mining areas is exported on commercial flights from Guayaquil airport to the United States, Switzerland, and Hong Kong."
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/ZAMORA-ACordova.jpg",
+                            "caption": "",
+                            "credit": "Audrey Córdova"
+                        },
+                        "location": {
+                            "lat": -4.066812602784376,
+                            "line": true,
+                            "lon": -78.95554047221373,
+                            "zoom": 13,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<b>ZAMORA CHINCHIPE</b><br>It is known as the mining capital of Ecuador, where the main gold deposits of the country are concentrated.&nbsp;"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Nambija_Ecuador_JoseLuisHachero.jpg",
+                            "caption": "",
+                            "credit": "José Luis Hachero"
+                        },
+                        "location": {
+                            "lat": -3.9766063262107116,
+                            "line": true,
+                            "lon": -78.83914293121342,
+                            "zoom": 15,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<b>NAMIBIA<br></b>It was the country's main gold deposit during the last three decades. Thousands of informal miners have drilled the mountain without State control."
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/LaHerradura_Ecuador_Audrey1.JPG",
+                            "caption": "",
+                            "credit": "Fabiola Torres"
+                        },
+                        "location": {
+                            "lat": -3.9317149,
+                            "line": true,
+                            "lon": -78.67532970000002,
+                            "zoom": 13,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<b>PAQUISHA</b><br>Miners from the settlements of La Herradura and La Pangui have opened 120 kilometers of tunnels in the Cordillera del Cóndor and invaded Peruvian territory to extract gold."
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Esmeraldas_Ecuador_Agencia_Andes.jpg",
+                            "caption": "",
+                            "credit": "Agencia Andes"
+                        },
+                        "location": {
+                            "lat": 0.969253636040062,
+                            "line": true,
+                            "lon": -79.65661416269523,
+                            "zoom": 11,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<b>ESMERALDAS</b><br>It is\nthe sixth poorest province of Ecuador bordering&nbsp;Colombia.\nAbout 140 thousand hectares of its cantons Eloy Alfaro and San Lorenzo have\nbeen devastated by illegal mining."
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "",
+                            "caption": "",
+                            "credit": ""
+                        },
+                        "location": {
+                            "lat": 0,
+                            "line": true,
+                            "lon": 0,
+                            "zoom": 1,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": ""
+                        }
+                    }
+                ],
+                "map_access_token": "pk.eyJ1IjoiaW5mb2FtYXpvbmlhIiwiYSI6InItajRmMGsifQ.JnRnLDiUXSEpgn7bPDzp7g",
+                "map_type": "mapbox:infoamazonia.kdgaball",
+                "call_to_action_text": "Start the journey",
+                "map_as_image": false,
+                "map_subdomains": "abcd"
+            },
+            "height": "600",
+            "font_css": ""
+        },
+        "es": {
+            "storymap": {
+                "language": "es",
+                "call_to_action": true,
+                "slides": [
+                    {
+                        "media": {
+                            "url": "",
+                            "caption": "",
+                            "credit": ""
+                        },
+                        "location": {
+                            "line": true,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "background": {},
+                        "text": {
+                            "headline": "LAS RUTAS DEL ORO ILEGAL",
+                            "text": "<p><span>La minería ilegal en Sudamérica es una de las principales amenazas para el ecosistema. Un equipo de <b>OjoPúblico</b> recorrió los centros de producción de oro ilegal en Perú, Bolivia, Colombia, Brasil y &nbsp;Ecuador, y constató las formas en las que el metal de origen ilegal se incorpora a las cadenas de comercialización.</span><br></p><p><b><a href=\"http://infoamazonia.org/es/\" target=\"_blank\" rel=\"nofollow\" title=\"Link: http://infoamazonia.org/es/\">Mapa: Infoamazonía (Iniciativa Terra i - Ciat)</a></b></p><p><a href='https://infoamazonia.org/es/2015/06/10/mapa-interactivo-conozca-las-rutas-del-oro-ilegal-en-sudamerica/'>Mapa Interactivo: Conozca las rutas del oro ilegal en Sudamérica</a></p>"
+                        },
+                        "date": "",
+                        "type": "overview"
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "",
+                            "caption": "",
+                            "credit": ""
+                        },
+                        "location": {
+                            "lat": -12.046374,
+                            "line": true,
+                            "lon": -77.0427934,
+                            "zoom": 4,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "PERÚ",
+                            "text": "<p>Es el quinto\nproductor mundial de oro y el principal de Latinoamérica. Las\noperaciones de minería ilegal, que más depredación han causado en\nla costa, el altiplano y la amazonía, se concentran en el sur del\nPerú: Cusco, Puno, Madre de Dios, entre otras regiones.<br></p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/aeropuerto_andina_720.png",
+                            "caption": "",
+                            "credit": "Andina"
+                        },
+                        "location": {
+                            "lat": -12.048834551361109,
+                            "line": true,
+                            "lon": -77.13697062812503,
+                            "zoom": 12,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><b>LIMA - CALLAO</b></p><p>Punto neurálgico para el comercio del oro, de procedencia legal e\nilegal. El metal&nbsp;pasa por los almacenes aduaneros del Callao antes de ser&nbsp;llevado al\naeropuerto internacional Jorge Chávez y enviado a EE.UU., Europa\ny Asia.</p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Puerto Maldonado_A.Cordova.jpg",
+                            "caption": "",
+                            "credit": "Audrey Córdova"
+                        },
+                        "location": {
+                            "lat": -12.5909084,
+                            "line": true,
+                            "lon": -69.1963141,
+                            "zoom": 6,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "background": {},
+                        "text": {
+                            "headline": "",
+                            "text": "<p><b>PUERTO MALDONADO</b></p><p>Capital\nde Madre de Dios. Aquí se encuentran las principales\ncomercializadoras y exportadoras de oro de la región con sucursales\nen Huepetuhe, Juliaca, Mazuko y Cusco. Durante años\nel oro extraído de esta zona acabó en Suiza.</p>\n<p><br>\n</p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Huepetuhe-Audrey Córdova.jpg",
+                            "caption": "",
+                            "credit": "Audrey Córdova"
+                        },
+                        "location": {
+                            "lat": -13.017938075150177,
+                            "line": true,
+                            "lon": -70.5215835571289,
+                            "zoom": 12,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><b>HUEPETUHE</b><br></p>\n<p><span>Es la principal\nregión de extracción de oro en Madre de Dios. En los 90 se inició la venta de maquinaria pesada&nbsp;a\nlos mineros. Hoy es una de las zonas más devastadas del\nPerú.</span></p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/La Pampa Andina.jpg",
+                            "caption": "",
+                            "credit": "Andina"
+                        },
+                        "location": {
+                            "lat": -12.933784892850651,
+                            "line": true,
+                            "lon": -70.02303529140625,
+                            "zoom": 9,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><b>LA PAMPA</b></p><p>Nombre\nutilizado para denominar a la extensión de territorio depredado que\nestá cerca de la carretera Interoceánica, y que llega hasta la\nReserva Nacional Tambopata.</p>\n<p><br>\n</p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Mazuco_A.Cordova.jpg",
+                            "caption": "",
+                            "credit": "Audrey Córdova"
+                        },
+                        "location": {
+                            "lat": -13.085497691047646,
+                            "line": true,
+                            "lon": -70.40794372558594,
+                            "zoom": 12,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><b>MAZUKO</b></p>\n<p>Zona\nde minería ilegal en la frontera de Cusco con Madre de Dios. En los\núltimos años se incrementó la actividad de minería ilegal.</p>\n<p><br>\n</p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Cusco.jpg",
+                            "caption": "",
+                            "credit": "Audrey Córdova"
+                        },
+                        "location": {
+                            "lat": -13.53195,
+                            "line": true,
+                            "lon": -71.96746259999998,
+                            "zoom": 15,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><b>CUSCO</b></p>\n<p>La\nCiudad Imperial alberga a un grupo de exportadoras de oro procedente\nde Madre de Dios.</p>\n<p><br>\n</p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/JULIACA-AUDREYCORDOVA-AC6A1201.JPG",
+                            "caption": "",
+                            "credit": "Audrey Córdova"
+                        },
+                        "location": {
+                            "lat": -15.4996879,
+                            "line": true,
+                            "lon": -70.12965299999996,
+                            "zoom": 14,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><b>JULIACA</b></p>\n<p>En\nesta ciudad se concentran las principales exportadoras y\ncomercializadoras de Puno, que recogen el oro procedente de Ananea, en la frontera con Bolivia.</p>\n<p><br>\n</p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Ananea_OCastilla.jpg",
+                            "caption": "",
+                            "credit": "Óscar Castilla"
+                        },
+                        "location": {
+                            "lat": -14.67837048718198,
+                            "line": true,
+                            "lon": -69.53522532275394,
+                            "zoom": 16,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><b>ANANEA</b></p>\n<p>Distrito\nque concentra la zona de explotación minera más importante de&nbsp;Puno: La Rinconada.\t</p>\n<p><br>\n</p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/La Rinconada El Comercio.JPG",
+                            "caption": "",
+                            "credit": "El Comercio"
+                        },
+                        "location": {
+                            "lat": -14.622413074954345,
+                            "line": true,
+                            "lon": -69.44496631622314,
+                            "zoom": 16,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><b>LA RINCONADA</b></p>\n<p><span>Miles\nde mineros trabajan en esta fría región ubicada en el altiplano de\nPuno, a pocos kilómetros de la frontera con el norte de La Paz. La\nmaquinaria pesada empleada aquí removió toneladas de terreno en los\núltimos años.</span></p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Desaguadero-Audrey Cordova.jpg",
+                            "caption": "",
+                            "credit": "Audrey Córdova"
+                        },
+                        "location": {
+                            "lat": -16.564914447891056,
+                            "line": true,
+                            "lon": -69.03951523544316,
+                            "zoom": 16,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><span><b>DESAGUADERO</b><br><span>Principal\npuesto fronterizo entre Puno y La Paz y centro de comercio de\ncontrabando entre ambos países.</span></span></p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "",
+                            "caption": "",
+                            "credit": ""
+                        },
+                        "location": {
+                            "lat": -16.290154,
+                            "line": true,
+                            "lon": -63.58865300000002,
+                            "zoom": 5,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "Bolivia",
+                            "text": "<p>Un grupo de cooperativas mineras dominan la producción de oro en la\nzona norte de La Paz y en la selva amazónica de Pando y Beni, cerca\nde Brasil.</p>\n<p><br>\n</p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/La Paz Audrey Cordova.jpg",
+                            "caption": "",
+                            "credit": "Audrey Córdova"
+                        },
+                        "location": {
+                            "lat": -16.49563694043469,
+                            "line": true,
+                            "lon": -68.1333446502685,
+                            "zoom": 16,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><b>LA PAZ</b></p><p>Capital de Bolivia. Concentra la mayor cantidad de\nempresas exportadoras del oro extraído en el vecino país del sur.</p>\n<p><br>\n</p>\n<p><br>\n</p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/pelechuco_A_Cordova.jpg",
+                            "caption": "",
+                            "credit": "Audrey Córdova"
+                        },
+                        "location": {
+                            "lat": -14.8198404,
+                            "line": true,
+                            "lon": -69.07168969999998,
+                            "zoom": 13,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><b>PELECHUCO</b></p>\n<p>Ciudad\naltiplánica del norte de La Paz donde se practica la minería\nartesanal. Se encuentra a cinco horas de la capital boliviana.</p>\n<p><br>\n</p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Chejepampa Audrey Cordova.jpg",
+                            "caption": "",
+                            "credit": "Audrey Córdova"
+                        },
+                        "location": {
+                            "lat": -14.796459541767938,
+                            "line": true,
+                            "lon": -69.3460464477539,
+                            "zoom": 12,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><b>CHEJEPAMPA</b></p>\n<p>Zona\nremota ubicada a doce horas de La Paz. Aquí se levanta una\nde las principales ferias de comercio y contrabando de oro. A este lugar, atravesado por el río Suches, llegan compradores\ndesde la frontera con Perú.</p>\n<p><br>\n</p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Riveralta_A_Cordova.jpg",
+                            "caption": "",
+                            "credit": "Audrey Córdova"
+                        },
+                        "location": {
+                            "lat": -11.004352871236097,
+                            "line": true,
+                            "lon": -66.06477510058596,
+                            "zoom": 12,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><b>RIBERALTA</b></p>\n<p>Ciudad\nboliviana ubicada en la provincia del Beni, en plena Amazonía de\ndicho país y en la frontera con Brasil. La actividad minera en esta\nzona se concentra en sus ríos.</p>\n<p><br>\n</p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Guayaramerin-Oscar Castilla.jpg",
+                            "caption": "",
+                            "credit": "Óscar Castilla"
+                        },
+                        "location": {
+                            "lat": -10.81836241368672,
+                            "line": true,
+                            "lon": -65.35441394433599,
+                            "zoom": 12,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><b>GUAYARAMERÍN</b></p>\n<p>Poblado\nboliviano en el límite con el estado brasileño de Rondonia. Lugar\nde contrabando de oro entre ambos países.</p>\n<p><br>\n</p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "",
+                            "caption": "",
+                            "credit": ""
+                        },
+                        "location": {
+                            "lat": -9.07216546032147,
+                            "line": true,
+                            "lon": -51.74949874999999,
+                            "zoom": 4,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "BRASIL",
+                            "text": "<p>El\npaís más grande de Sudamérica y uno de los mayores productores de\noro de la región después de Perú. Tiene grandes compañías\nmineras, pero también&nbsp;gran actividad de la&nbsp;minería ilegal en los\nestados de Pará, Mato Grosso, Roraima, Amapá y Rondonia.</p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Sao Paulo Audrey Cordova.jpg",
+                            "caption": "",
+                            "credit": ""
+                        },
+                        "location": {
+                            "lat": -23.5431786,
+                            "line": true,
+                            "lon": -46.62918450000001,
+                            "zoom": 9,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><b>SAO PAULO</b></p>\n<p><span>Una\nde las principales ciudades de Brasil y centro de comercio de oro\nprocedente de diferentes regiones del país.</span></p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Porto Velho-Oscar Castilla.jpg",
+                            "caption": "",
+                            "credit": "Óscar Castilla"
+                        },
+                        "location": {
+                            "lat": -8.761160499999999,
+                            "line": true,
+                            "lon": -63.90043029999998,
+                            "zoom": 9,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><b>PORTO VELHO</b></p><b>\n</b><p><span>Capital\nde Rondonia. Aquí se&nbsp;practica la minería ilegal en las márgenes\ndel río Madeira a través de dragas.</span></p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "",
+                            "caption": "",
+                            "credit": ""
+                        },
+                        "location": {
+                            "lat": -10.775638537653732,
+                            "line": true,
+                            "lon": -65.33020019531244,
+                            "zoom": 12,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<b>GUAJA MIRIN</b><br>\n\t\n\t\n\t\n\n\n<p><span>Poblado\nbrasileño en el límite con el estado boliviano de Beni. Lugar de\ncontrabando de oro entre ambos países.</span></p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "",
+                            "caption": "",
+                            "credit": ""
+                        },
+                        "location": {
+                            "lat": 3.869653935834161,
+                            "line": true,
+                            "lon": -73.08883690624998,
+                            "zoom": 6,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "COLOMBIA",
+                            "text": "<p><span>El\n87% de las unidades productoras de oro en el país operan al margen\nde&nbsp;la\nley, y la mayoría están&nbsp;asociadas a grupos armados ilegales, como\nlas&nbsp;FARC.\nLas regiones más afectadas son: Antioqui</span>a, Chocó y Caquetá.</p><p><br>\n</p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Medellin_IvánErreJota.jpg",
+                            "caption": "",
+                            "credit": "Iván Erre Jota"
+                        },
+                        "location": {
+                            "lat": 6.244203,
+                            "line": true,
+                            "lon": -75.58121189999997,
+                            "zoom": 11,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<span><b>MEDELLÍN<br></b>En la capital de Antioquia se concentra la mayoría de las 60&nbsp;empresas exportadoras de oro de Colombia.</span>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Chocó_Minería_Colombia_CentroMemoria.jpg",
+                            "caption": "",
+                            "credit": "Centro de la Memoria"
+                        },
+                        "location": {
+                            "lat": 4.981505049328245,
+                            "line": true,
+                            "lon": -76.75048828125,
+                            "zoom": 8,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><span><b>CHOCÓ</b><br>Es\nel mayor centro de la producción de oro ilegal en Colombia.\nNinguna&nbsp;<span>unidad\nproductora tiene título minero de explotación.</span></span></p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Antioquia_Carder_Colombia.jpeg",
+                            "caption": "",
+                            "credit": "carder.gov.co"
+                        },
+                        "location": {
+                            "lat": 6.559121457444521,
+                            "line": true,
+                            "lon": -75.82732389941407,
+                            "zoom": 12,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><span><b>ANTIOQUIA</b><br>El\n90% de la minería en esta región es informal. De este departamento se exporta el oro con destino a Estados Unidos y Suiza, principalmente.</span></p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Dragas_Caquetá.JPG",
+                            "caption": "",
+                            "credit": "Nelly Luna"
+                        },
+                        "location": {
+                            "lat": 0.869892,
+                            "line": true,
+                            "lon": -73.8419063,
+                            "zoom": 6,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><span><b>CAQUETÁ</b><br>Durante\nlos últimos 10 años las dragas que extraen oro del río&nbsp;Caquetá,\nen los alrededores de la zona de Araracuara, se han&nbsp;<span>incrementado.\nLos pueblos indígenas son los más afectados.</span></span></p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "",
+                            "caption": "",
+                            "credit": ""
+                        },
+                        "location": {
+                            "lat": 10.445791,
+                            "line": true,
+                            "lon": -75.36850099999998,
+                            "zoom": 12,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<b>BOLÍVAR</b><br><span>En este departamento de Colombia el 87% de las unidades de producción de oro informal utilizan mercurio.</span><br>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "",
+                            "caption": "",
+                            "credit": ""
+                        },
+                        "location": {
+                            "lat": -1.0844157916688364,
+                            "line": true,
+                            "lon": -78.48003685937499,
+                            "zoom": 7,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "ECUADOR",
+                            "text": "<p><span>Los\nasentamientos mineros de cinco provincias fronterizas con Perú y\ntambién con Colombia son los principales focos de minería ilegal. El 70% del oro producido en este país no es declarado al Estado.</span></p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Jose_Vilchez_Guayaquil.jpg",
+                            "caption": "",
+                            "credit": "José Vilchez"
+                        },
+                        "location": {
+                            "lat": -2.1998160352199365,
+                            "line": true,
+                            "lon": -79.92922565507814,
+                            "zoom": 11,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<b>GUAYAQUIL<br></b>El oro extraído de sus principales zonas mineras es exportado en vuelos comerciales desde el aeropuerto de Guayaquil con destino a Estados Unidos, Suiza y Hong Kong."
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/ZAMORA-ACordova.jpg",
+                            "caption": "",
+                            "credit": "Audrey Córdova"
+                        },
+                        "location": {
+                            "lat": -4.066812602784376,
+                            "line": true,
+                            "lon": -78.95554047221373,
+                            "zoom": 13,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<b>ZAMORA CHINCHIPE</b><br>Es conocida como la capital minera de Ecuador, donde se concentran los principales yacimientos de oro del país.&nbsp;"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Nambija_Ecuador_JoseLuisHachero.jpg",
+                            "caption": "",
+                            "credit": "José Luis Hachero"
+                        },
+                        "location": {
+                            "lat": -3.9766063262107116,
+                            "line": true,
+                            "lon": -78.83914293121342,
+                            "zoom": 15,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<b>NAMBIJA<br></b>Fue el principal yacimiento aurífero del país durante las últimas tres décadas. Miles de mineros informales han perforado la montaña&nbsp;sin control del Estado."
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/LaHerradura_Ecuador_Audrey1.JPG",
+                            "caption": "",
+                            "credit": "Fabiola Torres"
+                        },
+                        "location": {
+                            "lat": -3.9317149,
+                            "line": true,
+                            "lon": -78.67532970000002,
+                            "zoom": 13,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<b>PAQUISHA</b><br>Mineros de los asentamientos La Herradura y La Pangui han abierto 120 kilómetros de&nbsp;túneles en La Cordillera del Cóndor e invadido territorio peruano para extraer oro."
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Esmeraldas_Ecuador_Agencia_Andes.jpg",
+                            "caption": "",
+                            "credit": "Agencia Andes"
+                        },
+                        "location": {
+                            "lat": 0.969253636040062,
+                            "line": true,
+                            "lon": -79.65661416269523,
+                            "zoom": 11,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<b>ESMERALDAS</b><br>Es\nla sexta provincia más pobre de Ecuador fronteriza&nbsp;con Colombia.\nUnas 140 mil hectáreas de sus cantones Eloy Alfaro y San Lorenzo han\nsido devastadas por la minería ilegal."
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "",
+                            "caption": "",
+                            "credit": ""
+                        },
+                        "location": {
+                            "lat": 0,
+                            "line": true,
+                            "lon": 0,
+                            "zoom": 1,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": ""
+                        }
+                    }
+                ],
+                "map_access_token": "pk.eyJ1IjoiaW5mb2FtYXpvbmlhIiwiYSI6InItajRmMGsifQ.JnRnLDiUXSEpgn7bPDzp7g",
+                "map_type": "mapbox:infoamazonia.kdgaball",
+                "call_to_action_text": "Empieza el viaje",
+                "map_as_image": false,
+                "map_subdomains": "abcd"
+            },
+            "height": "600",
+            "font_css": ""
+        },
+        "pt": {
+            "storymap": {
+                "language": "pt",
+                "call_to_action": true,
+                "slides": [
+                    {
+                        "media": {
+                            "url": "",
+                            "caption": "",
+                            "credit": ""
+                        },
+                        "location": {
+                            "line": true,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "background": {},
+                        "text": {
+                            "headline": "AS ROTAS DO OURO ILEGAL",
+                            "text": "<p><span>A mineração ilegal na América do Sul é uma das principais ameaças ao ecossistema. Uma equipe do <b>OjoPúblico</b> percorreu os centros de produção de ouro ilegal no Peru, Bolívia, Colômbia, Brasil e Equador, e constatou as formas pelas quais o metal de origem ilegal é incorporado às cadeias de comercialização.</span><br></p><p><b><a href=\"http://infoamazonia.org/es/\" target=\"_blank\" rel=\"nofollow\" title=\"Link: http://infoamazonia.org/es/\">Mapa: Infoamazônia (Iniciativa Terra i - Ciat)</a></b></p><p><a href='https://infoamazonia.org/2015/06/10/mapa-interativo-conheca-as-rotas-do-ouro-ilegal-na-america-do-sul/'>Mapa interativo: Conheça as rotas do ouro ilegal na América do Sul</a></p>"
+                        },
+                        "date": "",
+                        "type": "overview"
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "",
+                            "caption": "",
+                            "credit": ""
+                        },
+                        "location": {
+                            "lat": -12.046374,
+                            "line": true,
+                            "lon": -77.0427934,
+                            "zoom": 4,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "PERU",
+                            "text": "<p>É o quinto\nprodutor mundial de ouro e o principal da América Latina. As\noperações de mineração ilegal, que mais causaram depredação na\ncosta, no altiplano e na Amazônia, concentram-se no sul do\nPeru: Cusco, Puno, Madre de Dios, entre outras regiões.<br></p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/aeropuerto_andina_720.png",
+                            "caption": "",
+                            "credit": "Andina"
+                        },
+                        "location": {
+                            "lat": -12.048834551361109,
+                            "line": true,
+                            "lon": -77.13697062812503,
+                            "zoom": 12,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><b>LIMA - CALLAO</b></p><p>Ponto nevrálgico para o comércio do ouro, de procedência legal e\nilegal. O metal&nbsp;passa pelos armazéns aduaneiros do Callao antes de ser&nbsp;levado ao\naeroporto internacional Jorge Chávez e enviado para os EUA, Europa\ne Ásia.</p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Puerto Maldonado_A.Cordova.jpg",
+                            "caption": "",
+                            "credit": "Audrey Córdova"
+                        },
+                        "location": {
+                            "lat": -12.5909084,
+                            "line": true,
+                            "lon": -69.1963141,
+                            "zoom": 6,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "background": {},
+                        "text": {
+                            "headline": "",
+                            "text": "<p><b>PUERTO MALDONADO</b></p><p>Capital\nde Madre de Dios. Aqui estão as principais\ncomercializadoras e exportadoras de ouro da região com filiais\nem Huepetuhe, Juliaca, Mazuko e Cusco. Durante anos\no ouro extraído desta zona acabou na Suíça.</p>\n<p><br>\n</p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Huepetuhe-Audrey Córdova.jpg",
+                            "caption": "",
+                            "credit": "Audrey Córdova"
+                        },
+                        "location": {
+                            "lat": -13.017938075150177,
+                            "line": true,
+                            "lon": -70.5215835571289,
+                            "zoom": 12,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><b>HUEPETUHE</b><br></p>\n<p><span>É a principal\nregião de extração de ouro em Madre de Dios. Nos anos 90 iniciou-se a venda de maquinaria pesada&nbsp;a\nos mineradores. Hoje é uma das zonas mais devastadas do\nPeru.</span></p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/La Pampa Andina.jpg",
+                            "caption": "",
+                            "credit": "Andina"
+                        },
+                        "location": {
+                            "lat": -12.933784892850651,
+                            "line": true,
+                            "lon": -70.02303529140625,
+                            "zoom": 9,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><b>LA PAMPA</b></p><p>Nome utilizado para denominar a extensão de território depredado que está perto da estrada Interoceânica, e que chega até a Reserva Nacional Tambopata.</p>\n<p><br>\n</p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Mazuco_A.Cordova.jpg",
+                            "caption": "",
+                            "credit": "Audrey Córdova"
+                        },
+                        "location": {
+                            "lat": -13.085497691047646,
+                            "line": true,
+                            "lon": -70.40794372558594,
+                            "zoom": 12,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><b>MAZUKO</b></p>\n<p>Zona\nde mineração ilegal na fronteira de Cusco com Madre de Dios. Nos\núltimos anos, a atividade de mineração ilegal aumentou.</p>\n<p><br>\n</p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Cusco.jpg",
+                            "caption": "",
+                            "credit": "Audrey Córdova"
+                        },
+                        "location": {
+                            "lat": -13.53195,
+                            "line": true,
+                            "lon": -71.96746259999998,
+                            "zoom": 15,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><b>CUSCO</b></p>\n<p>A Cidade Imperial abriga um grupo de exportadoras de ouro procedente de Madre de Dios.</p>\n<p><br>\n</p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/JULIACA-AUDREYCORDOVA-AC6A1201.JPG",
+                            "caption": "",
+                            "credit": "Audrey Córdova"
+                        },
+                        "location": {
+                            "lat": -15.4996879,
+                            "line": true,
+                            "lon": -70.12965299999996,
+                            "zoom": 14,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><b>JULIACA</b></p>\n<p>Nesta cidade concentram-se as principais exportadoras e comercializadoras de Puno, que recolhem o ouro proveniente de Ananea, na fronteira com a Bolívia.</p>\n<p><br>\n</p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Ananea_OCastilla.jpg",
+                            "caption": "",
+                            "credit": "Óscar Castilla"
+                        },
+                        "location": {
+                            "lat": -14.67837048718198,
+                            "line": true,
+                            "lon": -69.53522532275394,
+                            "zoom": 16,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><b>ANANEA</b></p>\n<p>Distrito\nque concentra a zona de exploração mineira mais importante de&nbsp;Puno: La Rinconada.\t</p>\n<p><br>\n</p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/La Rinconada El Comercio.JPG",
+                            "caption": "",
+                            "credit": "El Comercio"
+                        },
+                        "location": {
+                            "lat": -14.622413074954345,
+                            "line": true,
+                            "lon": -69.44496631622314,
+                            "zoom": 16,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><b>LA RINCONADA</b></p>\n<p><span>Milhares\nde mineiros trabalham nesta fria região localizada no planalto de\nPuno, a poucos quilômetros da fronteira com o norte de La Paz. A\nmáquina pesada utilizada aqui removeu toneladas de terra nos\núltimos anos.</span></p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Desaguadero-Audrey Cordova.jpg",
+                            "caption": "",
+                            "credit": "Audrey Córdova"
+                        },
+                        "location": {
+                            "lat": -16.564914447891056,
+                            "line": true,
+                            "lon": -69.03951523544316,
+                            "zoom": 16,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><span><b>DESAGUADERO</b><br><span>Principal\nposto fronteiriço entre Puno e La Paz e centro de comércio de\ncontrabando entre ambos os países.</span></span></p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "",
+                            "caption": "",
+                            "credit": ""
+                        },
+                        "location": {
+                            "lat": -16.290154,
+                            "line": true,
+                            "lon": -63.58865300000002,
+                            "zoom": 5,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "Bolívia",
+                            "text": "<p>Um grupo de cooperativas mineiras domina a produção de ouro na\nzona norte de La Paz e na selva amazônica de Pando e Beni, perto\ndo Brasil.</p>\n<p><br>\n</p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/La Paz Audrey Cordova.jpg",
+                            "caption": "",
+                            "credit": "Audrey Córdova"
+                        },
+                        "location": {
+                            "lat": -16.49563694043469,
+                            "line": true,
+                            "lon": -68.1333446502685,
+                            "zoom": 16,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><b>LA PAZ</b></p><p>Capital da Bolívia. Concentra a maior quantidade de empresas exportadoras do ouro extraído no país vizinho ao sul.</p>\n<p><br>\n</p>\n<p><br>\n</p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/pelechuco_A_Cordova.jpg",
+                            "caption": "",
+                            "credit": "Audrey Córdova"
+                        },
+                        "location": {
+                            "lat": -14.8198404,
+                            "line": true,
+                            "lon": -69.07168969999998,
+                            "zoom": 13,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><b>PELECHUCO</b></p>\n<p>Cidade altiplânica do norte de La Paz onde se pratica a mineração artesanal. Fica a cinco horas da capital boliviana.</p>\n<p><br>\n</p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Chejepampa Audrey Cordova.jpg",
+                            "caption": "",
+                            "credit": "Audrey Córdova"
+                        },
+                        "location": {
+                            "lat": -14.796459541767938,
+                            "line": true,
+                            "lon": -69.3460464477539,
+                            "zoom": 12,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><b>CHEJEPAMPA</b></p>\n<p>Zona\nremota localizada a doze horas de La Paz. Aqui se realiza uma\ndas principais feiras de comércio e contrabando de ouro. A este lugar, atravessado pelo rio Suches, chegam compradores\ndesde a fronteira com o Peru.</p>\n<p><br>\n</p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Riveralta_A_Cordova.jpg",
+                            "caption": "",
+                            "credit": "Audrey Córdova"
+                        },
+                        "location": {
+                            "lat": -11.004352871236097,
+                            "line": true,
+                            "lon": -66.06477510058596,
+                            "zoom": 12,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><b>RIBERALTA</b></p>\n<p>Cidade\nboliviana localizada na província de Beni, na plena Amazônia desse\npaís e na fronteira com o Brasil. A atividade mineradora nesta\nzona se concentra em seus rios.</p>\n<p><br>\n</p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Guayaramerin-Oscar Castilla.jpg",
+                            "caption": "",
+                            "credit": "Óscar Castilla"
+                        },
+                        "location": {
+                            "lat": -10.81836241368672,
+                            "line": true,
+                            "lon": -65.35441394433599,
+                            "zoom": 12,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><b>GUAYARAMERÍN</b></p>\n<p>Vila\nboliviana na fronteira com o estado brasileiro de Rondônia. Local\nde contrabando de ouro entre ambos os países.</p>\n<p><br>\n</p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "",
+                            "caption": "",
+                            "credit": ""
+                        },
+                        "location": {
+                            "lat": -9.07216546032147,
+                            "line": true,
+                            "lon": -51.74949874999999,
+                            "zoom": 4,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "BRASIL",
+                            "text": "<p>O\npaís mais grande da América do Sul e um dos maiores produtores de\nouro da região depois do Peru. Possui grandes companhias\nmineradoras, mas também&nbsp;grande atividade da&nbsp;mineração ilegal nos\nestados do Pará, Mato Grosso, Roraima, Amapá e Rondônia.</p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Sao Paulo Audrey Cordova.jpg",
+                            "caption": "",
+                            "credit": ""
+                        },
+                        "location": {
+                            "lat": -23.5431786,
+                            "line": true,
+                            "lon": -46.62918450000001,
+                            "zoom": 9,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><b>SÃO PAULO</b></p>\n<p><span>Uma\ndas principais cidades do Brasil e centro de comércio de ouro\nproveniente de diferentes regiões do país.</span></p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Porto Velho-Oscar Castilla.jpg",
+                            "caption": "",
+                            "credit": "Óscar Castilla"
+                        },
+                        "location": {
+                            "lat": -8.761160499999999,
+                            "line": true,
+                            "lon": -63.90043029999998,
+                            "zoom": 9,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><b>PORTO VELHO</b></p><b>\n</b><p><span>Capital\nde Rondônia. Aqui se pratica a mineração ilegal nas margens\ndo rio Madeira através de dragas.</span></p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "",
+                            "caption": "",
+                            "credit": ""
+                        },
+                        "location": {
+                            "lat": -10.775638537653732,
+                            "line": true,
+                            "lon": -65.33020019531244,
+                            "zoom": 12,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<b>GUAJA MIRIN</b><br>\n\t\n\t\n\t\n\n\n<p><span>Assentamento\nbrasileiro na fronteira com o estado boliviano de Beni. Local de\ncontrabando de ouro entre os dois países.</span></p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "",
+                            "caption": "",
+                            "credit": ""
+                        },
+                        "location": {
+                            "lat": 3.869653935834161,
+                            "line": true,
+                            "lon": -73.08883690624998,
+                            "zoom": 6,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "COLÔMBIA",
+                            "text": "<p><span>O\n87% das unidades produtoras de ouro no país operam à margem\nda&nbsp;lei, e a maioria está&nbsp;associada a grupos armados ilegais, como\nas&nbsp;FARC.\nAs regiões mais afetadas são: Antioqui</span>a, Chocó e Caquetá.</p><p><br>\n</p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Medellin_IvánErreJota.jpg",
+                            "caption": "",
+                            "credit": "Iván Erre Jota"
+                        },
+                        "location": {
+                            "lat": 6.244203,
+                            "line": true,
+                            "lon": -75.58121189999997,
+                            "zoom": 11,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<span><b>MEDELLÍN<br></b>Na capital de Antioquia concentra-se a maioria das 60&nbsp;empresas exportadoras de ouro da Colômbia.</span>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Chocó_Minería_Colombia_CentroMemoria.jpg",
+                            "caption": "",
+                            "credit": "Centro de la Memoria"
+                        },
+                        "location": {
+                            "lat": 4.981505049328245,
+                            "line": true,
+                            "lon": -76.75048828125,
+                            "zoom": 8,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><span><b>CHOCÓ</b><br>É\no maior centro de produção de ouro ilegal na Colômbia.\nNenhuma&nbsp;<span>unidade\nprodutora possui título minerário de exploração.</span></span></p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Antioquia_Carder_Colombia.jpeg",
+                            "caption": "",
+                            "credit": "carder.gov.co"
+                        },
+                        "location": {
+                            "lat": 6.559121457444521,
+                            "line": true,
+                            "lon": -75.82732389941407,
+                            "zoom": 12,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><span><b>ANTIOQUIA</b><br>90% da mineração nesta região é informal. Deste departamento, o ouro é exportado principalmente para os Estados Unidos e Suíça.</span></p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Dragas_Caquetá.JPG",
+                            "caption": "",
+                            "credit": "Nelly Luna"
+                        },
+                        "location": {
+                            "lat": 0.869892,
+                            "line": true,
+                            "lon": -73.8419063,
+                            "zoom": 6,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<p><span><b>CAQUETÁ</b><br>Durante\nos últimos 10 anos as dragas que extraem ouro do rio&nbsp;Caquetá,\nnos arredores da zona de Araracuara, se têm&nbsp;<span>incrementado.\nOs povos indígenas são os mais afetados.</span></span></p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "",
+                            "caption": "",
+                            "credit": ""
+                        },
+                        "location": {
+                            "lat": 10.445791,
+                            "line": true,
+                            "lon": -75.36850099999998,
+                            "zoom": 12,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<b>BOLÍVAR</b><br><span>Neste departamento da Colômbia, 87% das unidades de produção de ouro informal utilizam mercúrio.</span><br>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "",
+                            "caption": "",
+                            "credit": ""
+                        },
+                        "location": {
+                            "lat": -1.0844157916688364,
+                            "line": true,
+                            "lon": -78.48003685937499,
+                            "zoom": 7,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "EQUADOR",
+                            "text": "<p><span>Os\nassentamentos mineiros de cinco províncias fronteiriças com o Peru e\ntambém com a Colômbia são os principais focos de mineração ilegal. 70% do ouro produzido neste país não é declarado ao Estado.</span></p>"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Jose_Vilchez_Guayaquil.jpg",
+                            "caption": "",
+                            "credit": "José Vilchez"
+                        },
+                        "location": {
+                            "lat": -2.1998160352199365,
+                            "line": true,
+                            "lon": -79.92922565507814,
+                            "zoom": 11,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<b>GUAYAQUIL<br></b>O ouro extraído de suas principais zonas mineradoras é exportado em voos comerciais do aeroporto de Guayaquil com destino aos Estados Unidos, Suíça e Hong Kong."
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/ZAMORA-ACordova.jpg",
+                            "caption": "",
+                            "credit": "Audrey Córdova"
+                        },
+                        "location": {
+                            "lat": -4.066812602784376,
+                            "line": true,
+                            "lon": -78.95554047221373,
+                            "zoom": 13,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<b>ZAMORA CHINCHIPE</b><br>É conhecida como a capital mineradora do Equador, onde se concentram os principais depósitos de ouro do país.&nbsp;"
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Nambija_Ecuador_JoseLuisHachero.jpg",
+                            "caption": "",
+                            "credit": "José Luis Hachero"
+                        },
+                        "location": {
+                            "lat": -3.9766063262107116,
+                            "line": true,
+                            "lon": -78.83914293121342,
+                            "zoom": 15,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<b>NAMÍBIA<br></b>Foi o principal depósito aurífero do país durante as últimas três décadas. Milhares de mineiros informais perfuraram a montanha&nbsp;sem controle do Estado."
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/LaHerradura_Ecuador_Audrey1.JPG",
+                            "caption": "",
+                            "credit": "Fabiola Torres"
+                        },
+                        "location": {
+                            "lat": -3.9317149,
+                            "line": true,
+                            "lon": -78.67532970000002,
+                            "zoom": 13,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<b>PAQUISHA</b><br>Mineiros dos assentamentos La Herradura e La Pangui abriram 120 quilômetros de&nbsp;túneis na Cordilheira do Cóndor e invadiram território peruano para extrair ouro."
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "//s3.amazonaws.com/uploads.knightlab.com/storymapjs/91a51c992c06dc6e9b5ebdecb22a710a/las-rutas-del-oro-ilegal/_images/Esmeraldas_Ecuador_Agencia_Andes.jpg",
+                            "caption": "",
+                            "credit": "Agencia Andes"
+                        },
+                        "location": {
+                            "lat": 0.969253636040062,
+                            "line": true,
+                            "lon": -79.65661416269523,
+                            "zoom": 11,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": "<b>ESMERALDAS</b><br>É\na sexta província mais pobre do Equador, fronteiriça com a Colômbia.\nCerca de 140 mil hectares de seus cantões Eloy Alfaro e San Lorenzo foram\ndevastados pela mineração ilegal."
+                        }
+                    },
+                    {
+                        "date": "",
+                        "media": {
+                            "url": "",
+                            "caption": "",
+                            "credit": ""
+                        },
+                        "location": {
+                            "lat": 0,
+                            "line": true,
+                            "lon": 0,
+                            "zoom": 1,
+                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                        },
+                        "text": {
+                            "headline": "",
+                            "text": ""
+                        }
+                    }
+                ],
+                "map_access_token": "pk.eyJ1IjoiaW5mb2FtYXpvbmlhIiwiYSI6InItajRmMGsifQ.JnRnLDiUXSEpgn7bPDzp7g",
+                "map_type": "mapbox:infoamazonia.kdgaball",
+                "call_to_action_text": "Comece a viagem",
+                "map_as_image": false,
+                "map_subdomains": "abcd"
+            },
+            "height": "600",
+            "font_css": ""
+        }
+    }
+}

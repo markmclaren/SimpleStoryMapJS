@@ -6,7 +6,7 @@ let lines = []; // Track all line segments
 let isAnimating = false; // Prevent multiple animations at once
 
 // Fetch and parse the JSON data
-fetch("president.json")
+fetch("obama.json")
   .then((response) => response.json())
   .then((data) => {
     storyData = data.storymap.slides;

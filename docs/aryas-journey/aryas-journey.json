@@ -1,0 +1,523 @@
+{
+    "storymap": {
+        "slides": [
+            {
+                "media": {
+                    "url": "",
+                    "caption": "",
+                    "credit": ""
+                },
+                "location": {
+                    "line": true,
+                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                },
+                "background": {
+                    "color": "#121619",
+                    "opacity": 50,
+                    "url": "https://uploads.knightlab.com/storymapjs/a1a349b51799ee49e96bed10cc235e7f/aryas-journey/_images/Arya Stark GOT logo.png"
+                },
+                "text": {
+                    "headline": "Arya's Journey",
+                    "text": "<strong>SPOILERS</strong>. This map is based on the books.<p></p><p><strong>Arya Stark</strong> is the youngest daughter of&nbsp;Lord Eddard&nbsp;and&nbsp;Lady Catelyn&nbsp;Stark. She is known for preferring weaponry to gowns.&nbsp;Arya is the only character to have at least one&nbsp;POV&nbsp;chapter in all of the published novels. On the HBO&nbsp;series, Arya is played by <a href=\"https://twitter.com/Maisie_Williams\" target=\"_blank\" rel=\"nofollow\">Maisie Williams</a>.</p><p><strong>Aliases:</strong>&nbsp;<br>Arya Horseface, Arya Underfoot, Arry, Weasel, Nan, Squab, Salty, Cat of the Canals, Blind Beth</p>"
+                },
+                "date": "",
+                "type": "overview"
+            },
+            {
+                "date": "",
+                "media": {
+                    "url": "http://www.youtube.com/watch?v=5FoXU1pNr7g&list=PL3D195AFFBB8D144F&index=7",
+                    "caption": "Character Feature - Arya Stark",
+                    "credit": "HBO"
+                },
+                "location": {
+                    "lat": 81.22826656005543,
+                    "line": true,
+                    "lon": -131.923828125,
+                    "zoom": 4,
+                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                },
+                "background": {
+                    "color": "#121619",
+                    "url": "https://uploads.knightlab.com/storymapjs/a1a349b51799ee49e96bed10cc235e7f/aryas-journey/_images/Winterfell.jpg"
+                },
+                "text": {
+                    "headline": "Winterfell",
+                    "text": "<span>Arya must leave her home and travel to King's landing with her older sister Sansa,&nbsp;when her father is made Hand of the King to Robert Baratheon.&nbsp;Before she leaves, her half-brother Jon Snow gives her a sword called Needle as a parting gift.&nbsp;</span><br>"
+                }
+            },
+            {
+                "date": "",
+                "media": {
+                    "url": "https://uploads.knightlab.com/storymapjs/a1a349b51799ee49e96bed10cc235e7f/aryas-journey/_images/Arya Nymeria.jpg",
+                    "caption": "",
+                    "credit": ""
+                },
+                "location": {
+                    "lat": 72.04683989379397,
+                    "line": true,
+                    "lon": -126.298828125,
+                    "zoom": 4,
+                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                },
+                "background": {
+                    "color": "#121619",
+                    "opacity": 100
+                },
+                "text": {
+                    "headline": "Travels to King's Landing",
+                    "text": "At Winterfell&nbsp;each of the Stark children received a&nbsp;direwolf<span>&nbsp;pup, Arya named hers&nbsp;</span>Nymeria, after a warrior queen<span>. While traveling to King's Landing, Prince Joffrey hits Arya following an argument and</span><span>&nbsp;Nymeria attacks&nbsp;</span>Joffrey<span>. Queen Cersei then orders the direwolf to be killed, and&nbsp;Arya&nbsp;throws rocks at Nymeria to scare her away to safety</span><span>.&nbsp;</span>Sansa<span>'s wolf, Lady, was killed in her&nbsp;place.</span>"
+                }
+            },
+            {
+                "date": "",
+                "media": {
+                    "url": "http://www.youtube.com/watch?v=E5BrH30yE4c&list=PL3D195AFFBB8D144F&index=4",
+                    "caption": "Making of Arya Stark's New Look",
+                    "credit": "HBO"
+                },
+                "location": {
+                    "lat": 66.687783861162,
+                    "line": true,
+                    "lon": -116.98242187499999,
+                    "zoom": 4,
+                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                },
+                "background": {
+                    "color": "#121619",
+                    "opacity": 100,
+                    "url": "https://uploads.knightlab.com/storymapjs/a1a349b51799ee49e96bed10cc235e7f/aryas-journey/_images/kings-landing.jpg"
+                },
+                "text": {
+                    "headline": "King's Landing",
+                    "text": "When her father is executed, Arya manages to escape with the help of&nbsp;Yoren (a friend of Ned's from the Night's Watch)<span>, who cuts her hair and poses her&nbsp;as a boy named Arry.&nbsp;</span>"
+                }
+            },
+            {
+                "date": "",
+                "media": {
+                    "url": "https://uploads.knightlab.com/storymapjs/a1a349b51799ee49e96bed10cc235e7f/aryas-journey/_images/Arya with prisoners.jpg",
+                    "caption": "",
+                    "credit": ""
+                },
+                "location": {
+                    "lat": 68.49604022839505,
+                    "line": true,
+                    "lon": -125.2880859375,
+                    "zoom": 5,
+                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                },
+                "background": {
+                    "color": "#121619",
+                    "opacity": 100
+                },
+                "text": {
+                    "headline": "Village on the Gods Eye",
+                    "text": "Lannister freeriders led by Ser&nbsp;Amory Lorch&nbsp;kill Yoren on the shores of &nbsp;the&nbsp;Gods Eye.&nbsp;Arya escapes, along with&nbsp;Gendry,&nbsp;Hot Pie, and Lommy Greenhands, and in the process saves the lives of&nbsp;Jaqen H'ghar,&nbsp;Rorge, and&nbsp;Biter, three criminals&nbsp;Yoren&nbsp;was bringing to the wall, who run off on their own."
+                }
+            },
+            {
+                "date": "",
+                "media": {
+                    "url": "",
+                    "caption": "",
+                    "credit": ""
+                },
+                "location": {
+                    "lat": 68.56038368664157,
+                    "line": true,
+                    "lon": -126.826171875,
+                    "zoom": 4,
+                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                },
+                "background": {
+                    "color": "#121619",
+                    "opacity": 50,
+                    "url": "https://uploads.knightlab.com/storymapjs/a1a349b51799ee49e96bed10cc235e7f/aryas-journey/_images/Arya Gendry Hot Pie.jpg"
+                },
+                "text": {
+                    "headline": "Holdfast on the Gods Eye",
+                    "text": "<span>After their escape from the village, Arya and friends&nbsp;are captured by men under the command of Gregor Clegane (The Mountain)&nbsp;and put to work as servants in the undermanned castle of Harrenhal.</span>"
+                }
+            },
+            {
+                "date": "",
+                "media": {
+                    "url": "https://uploads.knightlab.com/storymapjs/a1a349b51799ee49e96bed10cc235e7f/aryas-journey/_images/Jaqen Arya.jpg",
+                    "caption": "Jaqen H'ghar handing his coin to Arya",
+                    "credit": ""
+                },
+                "location": {
+                    "lat": 70.25945200030638,
+                    "line": true,
+                    "lon": -126.38671874999999,
+                    "zoom": 5,
+                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                },
+                "background": {
+                    "color": "#121619"
+                },
+                "text": {
+                    "headline": "Harrenhal",
+                    "text": "Arya is made&nbsp;a servant at&nbsp;Harrenhal, going by the name 'Weasel', Jaqen, Rorge, and Biter reappear at the castle<span>. For saving his life during the attack, Jaqen promises to repay Arya by killing three men of her choice. For her three choices, Arya selects&nbsp;</span>Chiswyck<span>, a soldier in&nbsp;</span>Gregor Clegane<span>'s forces, Weese, her servant overseer, and Jaqen H'ghar himself. <br><br>The first two murders he carries out without question; in lieu of the third choice, Arya leverages Jaqen to help her slay the guards</span>.&nbsp;<span>Jaqen then gives Arya a mysterious iron coin and tells her to find him in Braavos if she should ever desire to learn his secrets and teaches her the phrase \"Valar Morghulis.\" He then adopts a new identity and leaves. Arya kills a guard and escapes Harrenhal with Gendry and Hot Pie.</span>"
+                }
+            },
+            {
+                "date": "",
+                "media": {
+                    "url": "https://uploads.knightlab.com/storymapjs/a1a349b51799ee49e96bed10cc235e7f/aryas-journey/_images/Arya discovered at inn.jpg",
+                    "caption": "",
+                    "credit": ""
+                },
+                "location": {
+                    "lat": 74.39034206491468,
+                    "line": true,
+                    "lon": -128.935546875,
+                    "zoom": 5,
+                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                },
+                "background": {
+                    "color": "#121619",
+                    "opacity": 100
+                },
+                "text": {
+                    "headline": "Inn at the Kneeling Man",
+                    "text": "Arya and friends encounter a group of men known as the Brotherhood Without Banners, they are searching for their&nbsp;leaders: Lord&nbsp;Beric Dondarrion&nbsp;and the red priest,&nbsp;Thoros of Myr.&nbsp;"
+                }
+            },
+            {
+                "date": "",
+                "media": {
+                    "url": "https://uploads.knightlab.com/storymapjs/a1a349b51799ee49e96bed10cc235e7f/aryas-journey/_images/Brotherhood without Banners.jpg",
+                    "caption": "",
+                    "credit": ""
+                },
+                "location": {
+                    "lat": 71.25828418176756,
+                    "line": true,
+                    "lon": -131.1376954615116,
+                    "zoom": 5,
+                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                },
+                "background": {
+                    "color": "#121619",
+                    "opacity": 100
+                },
+                "text": {
+                    "headline": "Lord Lychester's Keep",
+                    "text": "The&nbsp;Brotherhood Without Banners&nbsp;visits with Lord Lychester's&nbsp;maester&nbsp;for information on Lord&nbsp;Beric Dondarrion's whereabouts."
+                }
+            },
+            {
+                "date": "",
+                "media": {
+                    "url": "",
+                    "caption": "",
+                    "credit": ""
+                },
+                "location": {
+                    "lat": 70.80136623397624,
+                    "line": true,
+                    "lon": -133.3740234375,
+                    "zoom": 5,
+                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                },
+                "background": {
+                    "color": "#121619",
+                    "opacity": 50,
+                    "url": "https://uploads.knightlab.com/storymapjs/a1a349b51799ee49e96bed10cc235e7f/aryas-journey/_images/Arya Brotherhood.jpg"
+                },
+                "text": {
+                    "headline": "Lady of the Leaves",
+                    "text": "The outlaws&nbsp;<span>then visit the&nbsp;</span>Lady of the Leaves&nbsp;<span>in search of word on Lord&nbsp;</span>Beric<span>'s whereabouts. But none have seen him, only hearing rumors that he was dead\u2014hung once, killed by&nbsp;</span>Vargo Hoat<span>,&nbsp;</span>Amory Lorch<span>, and twice by&nbsp;</span>Gregor Clegane<span>. The same rumors&nbsp;</span>Arya<span>&nbsp;had been hearing at&nbsp;</span>Harrenhal<span>.&nbsp;</span>"
+                }
+            },
+            {
+                "date": "",
+                "media": {
+                    "url": "",
+                    "caption": "",
+                    "credit": ""
+                },
+                "location": {
+                    "lat": 70.40734767606811,
+                    "line": true,
+                    "lon": -133.2861328125,
+                    "zoom": 5,
+                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                },
+                "background": {
+                    "color": "#121619",
+                    "opacity": 50,
+                    "url": "https://uploads.knightlab.com/storymapjs/a1a349b51799ee49e96bed10cc235e7f/aryas-journey/_images/Weirwood.jpg"
+                },
+                "text": {
+                    "headline": "High Heart",
+                    "text": "The outlaws plan to ransom Arya at&nbsp;Riverrun when they discover her identity, but must first&nbsp;meet up with Beric and&nbsp;Thoros of Myr. They arrive at&nbsp;High Heart, an ancient hill sacred to the&nbsp;children of the forest. Thirty-one mighty&nbsp;weirwoods&nbsp;had stood at the top of the hill, but only their stumps remained from after the&nbsp;Andals&nbsp;chopped them down. Yet Arya could still feel the power of the place. <br><br>An old dwarf woman, the Ghost of High Heart, pushes Arya away saying that she smells of death,&nbsp;she then&nbsp;speaks in private to Lem, Tom and&nbsp;Greenbeard, but Arya overhears the conversation. The woman&nbsp;also tells of a prophetic dream she has had while sleeping under the weirwood\u2014readers can infer that some of this dream relates to the Stark family."
+                }
+            },
+            {
+                "date": "",
+                "media": {
+                    "url": "",
+                    "caption": "",
+                    "credit": ""
+                },
+                "location": {
+                    "lat": 70.11048478105927,
+                    "line": true,
+                    "lon": -133.9453125,
+                    "zoom": 5,
+                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                },
+                "background": {
+                    "color": "#121619",
+                    "opacity": 50,
+                    "url": "https://uploads.knightlab.com/storymapjs/a1a349b51799ee49e96bed10cc235e7f/aryas-journey/_images/Beric Dondarrion.jpg"
+                },
+                "text": {
+                    "headline": "Acorn Hall",
+                    "text": "At&nbsp;Acorn Hall, Lady&nbsp;Smallwood&nbsp;informs the Brotherhood&nbsp;that Thoros had been through recently, and that&nbsp;Karstark&nbsp;men were searching for the&nbsp;Kingslayer (Jaime Lannister).&nbsp;<span>Upon learning&nbsp;that Ser&nbsp;</span>Jaime Lannister<span>&nbsp;has escaped&nbsp;</span>Riverrun, the Mad Huntsman sets out to track him.&nbsp;<span>He catches&nbsp;</span>Sandor Clegane (The Hound)<span>, but the&nbsp;</span>Brotherhood Without Banners<span>&nbsp;claim him before the Mad Huntsman can put him in the crow cages. The Mad Huntsman agrees to take Sandor before Beric, to have a trial by combat.&nbsp;</span>"
+                }
+            },
+            {
+                "date": "",
+                "media": {
+                    "url": "",
+                    "caption": "",
+                    "credit": ""
+                },
+                "location": {
+                    "lat": 68.12248241161676,
+                    "line": true,
+                    "lon": -132.802734375,
+                    "zoom": 5,
+                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                },
+                "background": {
+                    "color": "#121619",
+                    "opacity": 50,
+                    "url": "https://uploads.knightlab.com/storymapjs/a1a349b51799ee49e96bed10cc235e7f/aryas-journey/_images/Arya and Thoros.jpg"
+                },
+                "text": {
+                    "headline": "Stoney Sept",
+                    "text": "The town is supportive of the&nbsp;Brotherhood Without Banners.&nbsp;Arya finds&nbsp;northern&nbsp;prisoners captured by the&nbsp;Mad Huntsman&nbsp;wasting away in cages.<br><br>Stoney Sept was the site of one of the most important battles of&nbsp;Robert's Rebellion, the&nbsp;Battle of the Bells. Lord&nbsp;Robert Baratheon, with the aid of Lords&nbsp;Eddard Stark,&nbsp;Jon Arryn and&nbsp;Hoster Tully, defeated a royal army under the command of Lord&nbsp;Jon Connington, the&nbsp;Hand of the King&nbsp;to&nbsp;Aerys II Targaryen."
+                }
+            },
+            {
+                "date": "",
+                "media": {
+                    "url": "https://uploads.knightlab.com/storymapjs/a1a349b51799ee49e96bed10cc235e7f/aryas-journey/_images/got-game-of-thrones-33960590-500-225.gif",
+                    "caption": "",
+                    "credit": ""
+                },
+                "location": {
+                    "lat": 68.44743779871777,
+                    "line": true,
+                    "lon": -136.3671876490116,
+                    "zoom": 5,
+                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                },
+                "background": {
+                    "url": "https://uploads.knightlab.com/storymapjs/a1a349b51799ee49e96bed10cc235e7f/aryas-journey/_images/Thoros and Beric.jpg"
+                },
+                "text": {
+                    "headline": "Hollow Hill",
+                    "text": "Arya&nbsp;and&nbsp;Gendry&nbsp;meet Beric in the&nbsp;Hollow Hill, where he is revealed to be a&nbsp;follower of the&nbsp;Lord of Light. They watch as&nbsp;Sandor Clegane&nbsp;duels Beric in a&nbsp;trial by battle. While&nbsp;Thoros of Myr&nbsp;always lit his blades with&nbsp;wildfire, Beric uses his own blood to make his sword magically aflame. Despite Sandor's fear of fire, he is able to slay Beric. Much to their surprise, however, Beric is revived by Thoros of Myr.&nbsp;<br>"
+                }
+            },
+            {
+                "date": "",
+                "media": {
+                    "url": "https://uploads.knightlab.com/storymapjs/a1a349b51799ee49e96bed10cc235e7f/aryas-journey/_images/Arya Red_Fork.jpg",
+                    "caption": "Sandor and Arya over the Riverlands",
+                    "credit": ""
+                },
+                "location": {
+                    "lat": 71.01695975726373,
+                    "line": true,
+                    "lon": -126.03515625,
+                    "zoom": 5,
+                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                },
+                "background": {
+                    "color": "#121619"
+                },
+                "text": {
+                    "headline": "Lord Harroway's Town",
+                    "text": "Arya escapes from the Brotherhood when she finds out they plan to ransom her. She is then captured&nbsp;by<span>&nbsp;</span>Sandor Clegane<span>&nbsp;who decides to take her to her mother at the Twins and ransom her. On the way they find&nbsp;Lord Harroway's Town flooded when the Trident overflows its banks.</span>"
+                }
+            },
+            {
+                "date": "",
+                "media": {
+                    "url": "",
+                    "caption": "Sandor and Arya outside the Twins during the Red Wedding",
+                    "credit": ""
+                },
+                "location": {
+                    "lat": 75.00494000767517,
+                    "line": true,
+                    "lon": -134.736328125,
+                    "zoom": 5,
+                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                },
+                "background": {
+                    "color": "#121619",
+                    "url": "https://uploads.knightlab.com/storymapjs/a1a349b51799ee49e96bed10cc235e7f/aryas-journey/_images/Arya and Hound Red Wedding.jpg"
+                },
+                "text": {
+                    "headline": "The Twins",
+                    "text": "Arya and Sandor are at the outskirts of the castle when the Red Wedding takes place, Arya upon seeing northern men being killed,&nbsp;tries to rush in to help her family. Sandor knocks her out to stop her, and they flee towards the mountains.<br><br>"
+                }
+            },
+            {
+                "date": "",
+                "media": {
+                    "url": "",
+                    "caption": "Arya and Sandor camping in the mountains",
+                    "credit": ""
+                },
+                "location": {
+                    "lat": 74.41397440280811,
+                    "line": true,
+                    "lon": -128.32031249999997,
+                    "zoom": 5,
+                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                },
+                "background": {
+                    "color": "#121619",
+                    "url": "https://uploads.knightlab.com/storymapjs/a1a349b51799ee49e96bed10cc235e7f/aryas-journey/_images/Arya with coin.png"
+                },
+                "text": {
+                    "headline": "The mountains",
+                    "text": "While they are hiding out in the mountains,&nbsp;Arya has a strange dream that she is actually her direwolf,&nbsp;Nymeria, leading a huge pack of wolves in the Riverlands. She dreams of finding a familiar corpse floating in the&nbsp;Green Fork&nbsp;south of the Twins and pulling it ashore, only to flee as a group of men approach."
+                }
+            },
+            {
+                "date": "",
+                "media": {
+                    "url": "",
+                    "caption": "Arya and Sandor",
+                    "credit": ""
+                },
+                "location": {
+                    "lat": 72.44879155730672,
+                    "line": true,
+                    "lon": -124.5849609375,
+                    "zoom": 5,
+                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                },
+                "background": {
+                    "color": "#121619",
+                    "url": "https://uploads.knightlab.com/storymapjs/a1a349b51799ee49e96bed10cc235e7f/aryas-journey/_images/Arya angry at Hound.jpg"
+                },
+                "text": {
+                    "headline": "Palisade Village",
+                    "text": "As they move deeper into the hills, Sandor and Arya come to an isolated village, and Sandor decides they need to stop for food and rest. The townsfolk are building a new palisade, and Sandor agrees to help in the labor for food, ale, lodging, and some coin. He also learns that taking the&nbsp;high road<span>&nbsp;will be impossible due to both the weather and the renewed depredations of the&nbsp;</span>mountain clans<span>. </span><span>&nbsp;<br></span><span><br>After two weeks in the town, Sandor decides they should just stay for a while until the situation in the&nbsp;</span>Riverlands<span>&nbsp;calms down, but the next day, they are turned out by the village elder, who recognizes Sandor and does not want any trouble. Sandor is paid with some copper, sour ale, and a sword that he trades for with his axe. He decides to make for&nbsp;</span>Riverrun<span>&nbsp;to ransom Arya to Ser&nbsp;</span>Brynden Tully<span>.&nbsp;</span>"
+                }
+            },
+            {
+                "date": "",
+                "media": {
+                    "url": "https://uploads.knightlab.com/storymapjs/a1a349b51799ee49e96bed10cc235e7f/aryas-journey/_images/Arya.gif",
+                    "caption": "Arya now on her own with Needle",
+                    "credit": ""
+                },
+                "location": {
+                    "lat": 71.61521389461222,
+                    "line": true,
+                    "lon": -123.92578125,
+                    "zoom": 6,
+                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                },
+                "background": {
+                    "color": "#121619",
+                    "url": "https://uploads.knightlab.com/storymapjs/a1a349b51799ee49e96bed10cc235e7f/aryas-journey/_images/Arya Needle.jpg"
+                },
+                "text": {
+                    "headline": "Inn at the Crossroads",
+                    "text": "Arya and Sandor meet freeriders in the service of Sandor's hated brother, Gregor, in an inn. There is a fight and the freeriders are killed, but Sandor is wounded. Arya leaves him dying under a tree and goes to the nearby port town of&nbsp;Saltpans."
+                }
+            },
+            {
+                "date": "",
+                "media": {
+                    "url": "",
+                    "caption": "The Xwejni Saltpans in Malta and example of what this scenery may look like on the show",
+                    "credit": "Francis Xavier Camilleri"
+                },
+                "location": {
+                    "lat": 70.75072302031475,
+                    "line": true,
+                    "lon": -120.12451171875,
+                    "zoom": 6,
+                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                },
+                "background": {
+                    "color": "#121619",
+                    "url": "https://uploads.knightlab.com/storymapjs/a1a349b51799ee49e96bed10cc235e7f/aryas-journey/_images/Salt Pans Malta.jpg"
+                },
+                "text": {
+                    "headline": "Saltpans",
+                    "text": "She finds a ship from the Free City of&nbsp;Braavos<span>&nbsp;there, but they refuse to take her north. She pulls out the coin Jaqen H'ghar gave her and states \"Valar Morghulis\"&nbsp;and the ship's crew suddenly become more cooperative. They won't take her north, but do agree to take over back to Braavos beyond the Narrow Sea with them. She agrees.</span>"
+                }
+            },
+            {
+                "date": "",
+                "media": {
+                    "url": "",
+                    "caption": "Map of Braavos",
+                    "credit": "Fantastic Maps"
+                },
+                "location": {
+                    "lat": 75.69393145698817,
+                    "line": true,
+                    "lon": -87.451171875,
+                    "zoom": 5,
+                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                },
+                "background": {
+                    "color": "#121619",
+                    "url": "https://uploads.knightlab.com/storymapjs/a1a349b51799ee49e96bed10cc235e7f/aryas-journey/_images/Titan_of_Braavos.jpg"
+                },
+                "text": {
+                    "headline": "Braavos",
+                    "text": "<span>In the Free City of Braavos, Arya finds her way to the House of Black and White, a temple to the Many-Faced God. There Arya is inducted into the ranks of the&nbsp;Faceless Men&nbsp;as a novice. She learns that the Faceless Men are not simply a band of skilled assassins, but also a religious sect dating long before the Doom of Valyria. They consider their assassinations to be holy sacraments to their god of death. <br><br>As Faceless Men must have no true identity, Arya assumes the role of 'Cat of the Canals' and becomes a familiar sight on the streets of the city. However, her old identity occasionally slips through. She hides her sword&nbsp;Needle&nbsp;rather than discarding it as ordered.&nbsp;</span>"
+                }
+            },
+            {
+                "date": "",
+                "media": {
+                    "url": "http://www.youtube.com/watch?v=xZY43QSx3Fk",
+                    "caption": "Season 4 trailer featuring \"Feral Love\" by Chelsea Wolfe",
+                    "credit": "HBO"
+                },
+                "location": {
+                    "lat": 74.39034206491468,
+                    "line": true,
+                    "lon": -128.935546875,
+                    "zoom": 5,
+                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                },
+                "background": {
+                    "color": "#121619"
+                },
+                "text": {
+                    "headline": "Game of Thrones - Season 4 Trailer",
+                    "text": "At the end of season 3 on the HBO series,&nbsp;Arya and Sandor Clegane (The Hound) had just escaped the Red Wedding at the Twins.<br><br><b>Watch the season 4 premiere Sunday,&nbsp;April 6, 2014, on&nbsp;HBO to see what happens next</b><br><br><br>"
+                }
+            }
+        ],
+        "map_background_color": "#121619",
+        "map_as_image": false,
+        "zoomify": {
+            "path": "http://gigapixel.knightlab.com/gameofthrones/",
+            "tolerance": 0.9,
+            "attribution": "\"Google Search\" //\"Google Art Project\"",
+            "width": 21920,
+            "height": 14656
+        },
+        "map_type": "zoomify"
+    }
+}

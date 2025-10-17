@@ -3,36 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>September 2013: A month in the life of President Obama</title>
-    <link
-        href="https://unpkg.com/maplibre-gl@5.0.0/dist/maplibre-gl.css"
-        rel="stylesheet"
-    />
-    <link href="https://unpkg.com/basscss@8.0.2/css/basscss.min.css" rel="stylesheet">
-    <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-    <link rel="stylesheet" href="styles.css" />
+    <title>Simple Story Map JS - Demo Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .description {
+            color: #666;
+            text-align: center;
+            margin-bottom: 40px;
+            line-height: 1.6;
+        }
+        
+        .story-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        
+        .story-card {
+            background-color: #fff;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 20px;
+            text-decoration: none;
+            color: #333;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+        
+        .story-card:hover {
+            border-color: #007acc;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(0,122,204,0.2);
+        }
+        
+        .story-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #007acc;
+        }
+        
+        .story-description {
+            color: #666;
+            font-size: 14px;
+            line-height: 1.4;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e0e0e0;
+            color: #999;
+            font-size: 12px;
+        }
+    </style>
 </head>
-
 <body>
-    <div id="app" class="flex">
-        <div id="map" class="flex-auto"></div>
-        <div id="story-content" class="flex-auto">
-            <div id="navigation">
-                <button id="prev-btn">Previous</button>
-                <button id="next-btn">Next</button>
-            </div>
-            <div id="content-wrapper">
-                <h1 id="headline"></h1>
-                <p id="text"></p>
-                <div id="media"></div>
-            </div>
+    <div class="container">
+        <h1>Simple Story Map JS</h1>
+        <p class="description">
+            Welcome to the Simple Story Map JS demo gallery. Explore interactive story maps that combine narrative storytelling with geographical visualization.
+        </p>
+        
+        <div class="story-grid">
+            <a href="aryas-journey/" class="story-card">
+                <div class="story-title">Arya's Journey</div>
+                <div class="story-description">
+                    Follow the epic adventures and travels of Arya through an interactive map experience.
+                </div>
+            </a>
+            
+            <a href="las-rutas-del-oro-ilegal/" class="story-card">
+                <div class="story-title">Las Rutas del Oro Ilegal</div>
+                <div class="story-description">
+                    Explore the complex routes and networks of illegal gold trade through an informative story map.
+                </div>
+            </a>
+            
+            <a href="obama/" class="story-card">
+                <div class="story-title">Obama</div>
+                <div class="story-description">
+                    Discover key moments and locations in President Obama's life and political journey.
+                </div>
+            </a>
+        </div>
+        
+        <div class="footer">
+            Simple Story Map JS Demo Gallery
         </div>
     </div>
-    <script src="https://unpkg.com/maplibre-gl@5.0.0/dist/maplibre-gl.js"></script>
-    <script src="app.js"></script>
 </body>
 </html>
-
