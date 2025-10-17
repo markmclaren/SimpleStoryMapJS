@@ -3,6 +3,7 @@ let storyData;
 let currentSlideIndex = 0;
 let markers = []; // Track all markers
 let lines = []; // Track all line segments
+let isAnimating = false; // Prevent multiple animations at once
 
 // Fetch and parse the JSON data
 fetch("president.json")
@@ -30,9 +31,10 @@ function initializeMap() {
       zoom: parseFloat(firstValidSlide.location.zoom) || 2,
     });
 
-    // Wait for map to load, then create all lines
-    map.on('load', () => {
+    // Wait for map to load, then create all lines and markers
+    map.on("load", () => {
       createAllLines();
+      createAllMarkers();
     });
   } else {
     // If no valid coordinates found, initialize with a default view
@@ -75,33 +77,39 @@ function createAllLines() {
 
       // Add source for this line segment
       map.addSource(sourceId, {
-        type: 'geojson',
+        type: "geojson",
         data: {
-          type: 'Feature',
+          type: "Feature",
           geometry: {
-            type: 'LineString',
+            type: "LineString",
             coordinates: [
-              [parseFloat(currentSlide.location.lon), parseFloat(currentSlide.location.lat)],
-              [parseFloat(nextSlide.location.lon), parseFloat(nextSlide.location.lat)]
-            ]
-          }
-        }
+              [
+                parseFloat(currentSlide.location.lon),
+                parseFloat(currentSlide.location.lat),
+              ],
+              [
+                parseFloat(nextSlide.location.lon),
+                parseFloat(nextSlide.location.lat),
+              ],
+            ],
+          },
+        },
       });
 
-      // Add layer for this line segment (initially grey)
+      // Add layer for this line segment with simple styling
       map.addLayer({
         id: lineId,
-        type: 'line',
+        type: "line",
         source: sourceId,
         layout: {
-          'line-join': 'round',
-          'line-cap': 'round'
+          "line-join": "round",
+          "line-cap": "round",
         },
         paint: {
-          'line-color': '#888888',
-          'line-width': 3,
-          'line-dasharray': [2, 2]
-        }
+          "line-color": "#888888",
+          "line-width": 3,
+          "line-dasharray": [3, 2], // More visible dash pattern - 3px dash, 2px gap
+        },
       });
 
       lines.push({ id: lineId, targetSlideIndex: i + 1 });
@@ -109,66 +117,87 @@ function createAllLines() {
   }
 }
 
-function updateLineColors() {
-  // Update all lines based on current slide
-  lines.forEach(line => {
-    if (line.targetSlideIndex === currentSlideIndex) {
-      // This line leads to the current slide, make it red
-      map.setPaintProperty(line.id, 'line-color', '#ff0000');
-    } else {
-      // All other lines are grey
-      map.setPaintProperty(line.id, 'line-color', '#888888');
+function createAllMarkers() {
+  // Create markers for all slides that have valid locations and icons
+  storyData.forEach((slide, index) => {
+    if (isValidLocation(slide.location) && slide.location.icon) {
+      const el = document.createElement("div");
+      el.className = "marker";
+      el.style.backgroundImage = `url(${slide.location.icon})`;
+      el.style.width = "32px";
+      el.style.height = "32px";
+      el.style.backgroundSize = "contain";
+      el.style.backgroundRepeat = "no-repeat";
+      el.style.cursor = "pointer";
+
+      const marker = new maplibregl.Marker({ element: el })
+        .setLngLat([
+          parseFloat(slide.location.lon),
+          parseFloat(slide.location.lat),
+        ])
+        .addTo(map);
+
+      markers[index] = marker;
     }
   });
 }
 
-function animateLineToRed(solidLineId) {
-  console.log('Starting animation for:', solidLineId);
-  let progress = 0;
-  const duration = 4500;
-  const steps = 40;
-  const stepDuration = duration / steps;
-  
-  const interval = setInterval(() => {
-    progress += 1 / steps;
-    
-    if (progress >= 1) {
-      progress = 1;
-      clearInterval(interval);
-      // At 100%, just make entire line red
-      map.setPaintProperty(solidLineId, 'line-gradient', [
-        'interpolate',
-        ['linear'],
-        ['line-progress'],
-        0, '#ff0000',
-        1, '#ff0000'
-      ]);
-      console.log('Animation complete');
-      return;
+function updateLineColors() {
+  // Update all lines based on current slide
+  lines.forEach((line) => {
+    if (line.targetSlideIndex === currentSlideIndex) {
+      // This line leads to the current slide, make it red
+      map.setPaintProperty(line.id, "line-color", "#ff0000");
+    } else {
+      // All other lines are grey
+      map.setPaintProperty(line.id, "line-color", "#888888");
     }
-    
-    // Gradually reveal the red line from start to progress point
-    map.setPaintProperty(solidLineId, 'line-gradient', [
-      'interpolate',
-      ['linear'],
-      ['line-progress'],
-      0, '#ff0000',
-      progress, '#ff0000',
-      Math.min(progress + 0.01, 0.99), 'rgba(255, 0, 0, 0)',
-      1, 'rgba(255, 0, 0, 0)'
-    ]);
-  }, stepDuration);
+  });
 }
 
-function updateSlide() {
+function updateSlide(direction = "none") {
   const slide = storyData[currentSlideIndex];
+  const contentWrapper = document.getElementById("content-wrapper");
 
-  // Update text content
-  document.getElementById("headline").textContent = slide.text.headline;
-  document.getElementById("text").innerHTML = slide.text.text;
+  // If direction is specified, animate the transition
+  if (direction !== "none" && !isAnimating) {
+    isAnimating = true;
 
-  // Update media
-  updateMedia(slide);
+    // Determine animation classes based on direction
+    const outClass =
+      direction === "next" ? "slide-out-left" : "slide-out-right";
+    const inClass = direction === "next" ? "slide-in-right" : "slide-in-left";
+
+    // Add exit animation
+    contentWrapper.classList.add(outClass);
+
+    // Wait for exit animation to complete, then update content and animate in
+    setTimeout(() => {
+      // Remove exit animation class
+      contentWrapper.classList.remove(outClass);
+
+      // Update text content
+      document.getElementById("headline").textContent = slide.text.headline;
+      document.getElementById("text").innerHTML = slide.text.text;
+
+      // Update media
+      updateMedia(slide);
+
+      // Add entrance animation
+      contentWrapper.classList.add(inClass);
+
+      // Remove entrance animation class after it completes
+      setTimeout(() => {
+        contentWrapper.classList.remove(inClass);
+        isAnimating = false;
+      }, 500);
+    }, 500);
+  } else {
+    // No animation, just update content
+    document.getElementById("headline").textContent = slide.text.headline;
+    document.getElementById("text").innerHTML = slide.text.text;
+    updateMedia(slide);
+  }
 
   // Update map if valid location exists
   if (isValidLocation(slide.location)) {
@@ -177,24 +206,6 @@ function updateSlide() {
       zoom: parseFloat(slide.location.zoom) || map.getZoom(),
       essential: true,
     });
-
-    // Add marker if the location has an icon and marker doesn't already exist for this slide
-    if (slide.location.icon && !markers[currentSlideIndex]) {
-      const el = document.createElement('div');
-      el.className = 'marker';
-      el.style.backgroundImage = `url(${slide.location.icon})`;
-      el.style.width = '32px';
-      el.style.height = '32px';
-      el.style.backgroundSize = 'contain';
-      el.style.backgroundRepeat = 'no-repeat';
-      el.style.cursor = 'pointer';
-
-      const marker = new maplibregl.Marker({ element: el })
-        .setLngLat([parseFloat(slide.location.lon), parseFloat(slide.location.lat)])
-        .addTo(map);
-      
-      markers[currentSlideIndex] = marker;
-    }
   }
 
   // Update line colors
@@ -213,8 +224,6 @@ function updateMedia(slide) {
       const iframe = document.createElement("iframe");
       iframe.src = slide.media.url.replace("watch?v=", "embed/");
       iframe.width = "100%";
-      iframe.height = "315";
-      iframe.frameBorder = "0";
       iframe.allow =
         "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
       iframe.allowFullscreen = true;
@@ -259,15 +268,15 @@ function updateButtonStates() {
 }
 
 document.getElementById("prev-btn").addEventListener("click", () => {
-  if (currentSlideIndex > 0) {
+  if (currentSlideIndex > 0 && !isAnimating) {
     currentSlideIndex--;
-    updateSlide();
+    updateSlide("prev");
   }
 });
 
 document.getElementById("next-btn").addEventListener("click", () => {
-  if (currentSlideIndex < storyData.length - 1) {
+  if (currentSlideIndex < storyData.length - 1 && !isAnimating) {
     currentSlideIndex++;
-    updateSlide();
+    updateSlide("next");
   }
 });
