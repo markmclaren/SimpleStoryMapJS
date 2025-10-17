@@ -1,0 +1,13 @@
+:root {
+    --primary-bg-color: #f0e3d9;
+    --primary-text-color: #4d4038;
+    --accent-color: #d97706;
+    --map-gradient-color: var(--primary-bg-color);
+}
+
+/* Variables for easy customization */
+:root {
+    --primary-text-color: #212529;
+    --accent-color-hover: #0056b3;
+    --border-color: #dee2e6;
+}

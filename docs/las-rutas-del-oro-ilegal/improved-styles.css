@@ -1,0 +1,226 @@
+/* General styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+#app {
+    display: flex;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* Desktop default: side by side */
+#map {
+    width: 50%;
+    height: 100vh;
+    flex-shrink: 0;
+    position: relative;
+}
+
+#story-content {
+    width: 50%;
+    height: 100vh;
+    padding: 40px;
+    overflow-y: auto;
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+/* Gradient border effect on desktop (side-by-side layout) */
+#map::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100px;
+    background: linear-gradient(to right, transparent, var(--map-gradient-color));
+    pointer-events: none;
+    z-index: 1;
+}
+
+/* Mobile: stacked layout */
+@media (max-width: 39.99em) {
+    #app {
+        flex-direction: column !important;
+    }
+
+    #map {
+        width: 100%;
+        height: 50vh;
+        min-height: 300px;
+    }
+
+    #story-content {
+        width: 100%;
+        height: 50vh;
+        padding: 20px;
+    }
+
+    #map::after {
+        display: none;
+    }
+}
+
+#content-wrapper {
+    max-width: 100%;
+    word-wrap: break-word;
+}
+
+#content-wrapper h1, #content-wrapper h2, #content-wrapper h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+#content-wrapper h1 {
+    font-size: 2.5rem;
+}
+
+#content-wrapper h2 {
+    font-size: 2rem;
+}
+
+#content-wrapper h3 {
+    font-size: 1.75rem;
+}
+
+#content-wrapper p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+}
+
+#content-wrapper a {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+#content-wrapper a:hover {
+    color: var(--accent-color-hover);
+    text-decoration: underline;
+}
+
+#media {
+    max-width: 100%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#media img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+#media iframe {
+    max-width: 100%;
+    min-height: 480px;
+    border: none;
+}
+
+#navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: var(--accent-color);
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.2s;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+button:hover {
+    background-color: var(--accent-color-hover);
+    transform: translateY(-2px);
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+    transform: none;
+}
+
+/* Animation classes for content transitions */
+.slide-out-left {
+    animation: slideOutLeft 0.5s ease-in-out forwards;
+}
+
+.slide-in-right {
+    animation: slideInRight 0.5s ease-in-out forwards;
+}
+
+.slide-out-right {
+    animation: slideOutRight 0.5s ease-in-out forwards;
+}
+
+.slide-in-left {
+    animation: slideInLeft 0.5s ease-in-out forwards;
+}
+
+@keyframes slideOutLeft {
+    from {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateX(-120%);
+        opacity: 0;
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideOutRight {
+    from {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateX(120%);
+        opacity: 0;
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
