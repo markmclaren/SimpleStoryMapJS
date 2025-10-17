@@ -18,7 +18,7 @@
                 "date": "2013",
                 "text": {
                     "headline": "Sept 3",
-                    "text": "The President departs Joint Base Andrews.</i></b>"
+                    "text": "<b><i>The President departs Joint Base Andrews.</i></b>"
                 },
                 "location": {
                     "name": "Andrews Air Force Base",
@@ -55,7 +55,7 @@
                 },
                 "media": {
                     "url": "https://www.youtube.com/watch?v=Sa5pVSNoBXk",
-                    "credit": "The White House YouTube",
+                    "credit": "The Obama White House YouTube",
                     "caption": "President Obama and Prime Minister Reinfeldt of Sweden hold a joint press conference. September 4, 2013."
                 }
             },
@@ -95,8 +95,8 @@
                 },
                 "media": {
                     "url": "https://www.youtube.com/watch?v=6SekMdGnZZY",
-                    "credit": "sealight films",
-                    "caption": "President Obama arrives at G-20 dinner"
+                    "credit": "The Obama White House YouTube",
+                    "caption": "President Obama's Bilateral Meeting with Prime Minister Abe of Japan"
                 }
             },
             {
@@ -120,7 +120,7 @@
                 },
                 "media": {
                     "url": "https://www.youtube.com/watch?v=nWPBJY8KDa8",
-                    "credit": "The White House YouTube",
+                    "credit": "The Obama White House YouTube",
                     "caption": "President Obama holds a press conference at the G20 Summit in St. Petersburg, Russia. September 6, 2013."
                 }
             },
@@ -160,7 +160,7 @@
                 },
                 "media": {
                     "url": "https://www.youtube.com/watch?v=y52LeaK6tHA",
-                    "credit": "martysoffice",
+                    "credit": "The Obama White House YouTube",
                     "caption": "President addresses the nation on Syria"
                 }
             },
@@ -220,7 +220,7 @@
                 },
                 "media": {
                     "url": "https://www.youtube.com/watch?v=MVSfAWUwAzc",
-                    "credit": "The White House YouTube",
+                    "credit": "The Obama White House YouTube",
                     "caption": "President Obama and the Amir of Kuwait "
                 }
             },
@@ -240,7 +240,7 @@
                 },
                 "media": {
                     "url": "https://www.youtube.com/watch?v=sP_DdESn7AQ",
-                    "credit": "The White House YouTube",
+                    "credit": "The Obama White House YouTube",
                     "caption": "President Obama marks the anniversary of the financial crisis"
                 }
             },
@@ -280,7 +280,7 @@
                 },
                 "media": {
                     "url": "https://www.youtube.com/watch?v=rkM32oQfHlk",
-                    "credit": "The White House YouTube",
+                    "credit": "The Obama White House YouTube",
                     "caption": "President Obama Speaks to the Business Roundtable "
                 }
             },
@@ -365,8 +365,8 @@
                 },
                 "media": {
                     "url": "https://www.youtube.com/watch?v=zBgzjbxGlX4",
-                    "credit": "WDTVLIVE42",
-                    "caption": "Illinois RailRoads 1950s"
+                    "credit": "The Obama White House YouTube",
+                    "caption": "The President addresses the United Nations General Assembly"
                 }
             },
             {
@@ -445,8 +445,8 @@
                 },
                 "media": {
                     "url": "https://www.youtube.com/watch?v=M4KIkjIiJrc",
-                    "credit": "Coconut Science Lab",
-                    "caption": "Best of Hubble"
+                    "credit": "The Obama White House YouTube",
+                    "caption": "President Obama and Prime Minister Netanyahu"
                 }
             }
         ]
