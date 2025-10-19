@@ -45,6 +45,12 @@ function initializeMap() {
       zoom: 1,
     });
   }
+
+  map.addControl(
+    new maplibregl.AttributionControl({
+      compact: true,
+    })
+  );
 }
 
 function isValidLocation(location) {

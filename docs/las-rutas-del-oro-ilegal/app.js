@@ -66,6 +66,12 @@ function initializeMap() {
       zoom: parseFloat(firstValidSlide.location.zoom) || 2,
     });
 
+    map.addControl(
+      new maplibregl.AttributionControl({
+        compact: true,
+      })
+    );
+
     // Wait for map to load, then create all lines and markers
     map.on("load", () => {
       createAllLines();

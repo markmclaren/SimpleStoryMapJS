@@ -32,7 +32,7 @@ fetch("aryas-journey.json")
           version: 8,
           sources: {
             storymap: {
-              type: "raster", 
+              type: "raster",
               url: `pmtiles://${PMTILES_URL}`,
             },
           },
@@ -40,7 +40,7 @@ fetch("aryas-journey.json")
             {
               id: "pmtiles-layer",
               source: "storymap",
-              type: "raster", 
+              type: "raster",
             },
           ],
         },
@@ -50,6 +50,12 @@ fetch("aryas-journey.json")
       initializeMap();
       updateSlide();
     });
+
+    map.addControl(
+      new maplibregl.AttributionControl({
+        compact: true,
+      })
+    );
   });
 function initializeMap() {
   // Find the first slide with valid coordinates
@@ -239,25 +245,74 @@ function updateSlide(direction = "none") {
 
   // Update background styling if specified
   const storyContent = document.getElementById("story-content");
-  if (slide.background) {
-    if (slide.background.url) {
-      // Set background image with cover sizing and no repeat
-      storyContent.style.backgroundImage = `url('${slide.background.url}')`;
-      storyContent.style.backgroundSize = "cover";
-      storyContent.style.backgroundPosition = "center";
-      storyContent.style.backgroundRepeat = "no-repeat";
+
+  // Ensure storyContent exists
+  if (storyContent) {
+    // Make sure the container is positioned so an absolute overlay can be placed inside it
+    if (!storyContent.style.position) {
+      storyContent.style.position = "relative";
     }
 
-    if (slide.background.color) {
-      storyContent.style.backgroundColor = slide.background.color;
+    // Create or reuse an overlay element that will hold the background image
+    let imgOverlay = storyContent.querySelector(".story-bg-image-overlay");
+    if (!imgOverlay) {
+      imgOverlay = document.createElement("div");
+      imgOverlay.className = "story-bg-image-overlay";
+      Object.assign(imgOverlay.style, {
+        position: "absolute",
+        top: "0",
+        left: "0",
+        width: "100%",
+        height: "100%",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        pointerEvents: "none",
+        zIndex: "0",
+        opacity: "1",
+        transition: "opacity 0.3s ease, background-image 0.3s ease",
+      });
+      // Insert at the start so content sits above it
+      storyContent.insertBefore(imgOverlay, storyContent.firstChild);
     }
 
-    if (slide.background.opacity !== undefined) {
-      const opacity = slide.background.opacity / 100; // Convert from 0-100 to 0-1
-      // Apply opacity to the background color if specified
+    // Ensure the actual content sits above the overlay
+    const contentWrapper = document.getElementById("content-wrapper");
+    if (contentWrapper) {
+      contentWrapper.style.position = "relative";
+      contentWrapper.style.zIndex = "1";
+    }
+
+    // Clear any direct backgroundImage set on the container (we use the overlay instead)
+    storyContent.style.backgroundImage = "";
+
+    if (slide.background) {
+      // Background color remains fully opaque (unless the slide wants a different color)
       if (slide.background.color) {
-        storyContent.style.backgroundColor = `rgba(18, 22, 25, ${opacity})`;
+        storyContent.style.backgroundColor = slide.background.color;
+      } else {
+        storyContent.style.backgroundColor = "";
       }
+
+      // If a background image is specified, set it on the overlay and apply opacity there
+      if (slide.background.url) {
+        imgOverlay.style.backgroundImage = `url('${slide.background.url}')`;
+        imgOverlay.style.display = "block";
+        const opacity =
+          slide.background.opacity !== undefined
+            ? slide.background.opacity / 100
+            : 1;
+        imgOverlay.style.opacity = String(opacity);
+      } else {
+        // No image for this slide -> hide overlay
+        imgOverlay.style.display = "none";
+        imgOverlay.style.backgroundImage = "";
+      }
+    } else {
+      // No background specified at all -> reset
+      imgOverlay.style.display = "none";
+      imgOverlay.style.backgroundImage = "";
+      storyContent.style.backgroundColor = "";
     }
   }
 
