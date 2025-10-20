@@ -3,18 +3,21 @@
         "en": {
             "name": "English",
             "code": "en",
+            "title": "The Routes of Illegal Gold",
             "prev": "Previous",
             "next": "Next"
         },
         "es": {
             "name": "Español",
             "code": "es",
+            "title": "Las Rutas del Oro Ilegal",
             "prev": "Anterior",
             "next": "Siguiente"
         },
         "pt": {
             "name": "Português",
             "code": "pt",
+            "title": "As Rotas do Ouro Ilegal",
             "prev": "Anterior",
             "next": "Próximo"
         }
