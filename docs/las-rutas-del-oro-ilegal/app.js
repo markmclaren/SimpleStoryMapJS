@@ -314,10 +314,16 @@ function updateButtonStates() {
     nextBtn.disabled = true;
     nextBtn.style.opacity = "0.5";
     nextBtn.style.cursor = "not-allowed";
+    restartBtn.disabled = true;
+    restartBtn.style.opacity = "0.5";
+    restartBtn.style.cursor = "not-allowed"; 
   } else {
     nextBtn.disabled = false;
     nextBtn.style.opacity = "1";
     nextBtn.style.cursor = "pointer";
+    restartBtn.disabled = false;
+    restartBtn.style.opacity = "1";
+    restartBtn.style.cursor = "pointer";
   }
 }
 
@@ -332,6 +338,13 @@ document.getElementById("next-btn").addEventListener("click", () => {
   if (currentSlideIndex < storyData.length - 1 && !isAnimating) {
     currentSlideIndex++;
     updateSlide("next");
+  }
+});
+
+document.getElementById("restart-btn").addEventListener("click", () => {
+  if (currentSlideIndex > 0 && !isAnimating) {
+    currentSlideIndex = 0;
+    updateSlide("none");
   }
 });
 

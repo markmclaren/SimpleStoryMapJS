@@ -259,16 +259,23 @@ function updateMedia(slide) {
 function updateButtonStates() {
   const prevBtn = document.getElementById("prev-btn");
   const nextBtn = document.getElementById("next-btn");
+  const restartBtn = document.getElementById("restart-btn");
 
   // Disable previous button on first slide
   if (currentSlideIndex === 0) {
     prevBtn.disabled = true;
     prevBtn.style.opacity = "0.5";
     prevBtn.style.cursor = "not-allowed";
+    restartBtn.disabled = true;
+    restartBtn.style.opacity = "0.5";
+    restartBtn.style.cursor = "not-allowed"; 
   } else {
     prevBtn.disabled = false;
     prevBtn.style.opacity = "1";
     prevBtn.style.cursor = "pointer";
+    restartBtn.disabled = false;
+    restartBtn.style.opacity = "1";
+    restartBtn.style.cursor = "pointer";
   }
 
   // Disable next button on last slide
@@ -296,6 +303,14 @@ document.getElementById("next-btn").addEventListener("click", () => {
     updateSlide("next");
   }
 });
+
+document.getElementById("restart-btn").addEventListener("click", () => {
+  if (currentSlideIndex > 0 && !isAnimating) {
+    currentSlideIndex = 0;
+    updateSlide("none");
+  }
+});
+
 
 // Keyboard navigation: left/right arrow keys for prev/next
 document.addEventListener("keydown", (event) => {

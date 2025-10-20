@@ -1,40 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Arya's Journey</title>
     <link
-        href="https://unpkg.com/maplibre-gl@5.0.0/dist/maplibre-gl.css"
-        rel="stylesheet"
+      href="https://unpkg.com/maplibre-gl@5.0.0/dist/maplibre-gl.css"
+      rel="stylesheet"
     />
-    <link href="https://unpkg.com/basscss@8.0.2/css/basscss.min.css" rel="stylesheet">
     <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      href="https://unpkg.com/basscss@8.0.2/css/basscss.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
     <link rel="stylesheet" href="custom.css" />
     <link rel="stylesheet" href="improved-styles.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <div id="app" class="flex">
-        <div id="map" class="flex-auto"></div>
-        <div id="story-content" class="flex-auto">
-            <div id="navigation">
-                <button id="prev-btn">Previous</button>
-                <button id="next-btn">Next</button>
-            </div>
-            <div id="content-wrapper">
-                <h1 id="headline"></h1>
-                <p id="text"></p>
-                <div id="media"></div>
-            </div>
+      <div id="map" class="flex-auto"></div>
+      <div id="story-content" class="flex-auto">
+        <div id="navigation">
+          <span class="button-group">
+            <button id="restart-btn">⏮</button>
+            <button id="prev-btn">Previous</button>
+          </span>
+          <button id="next-btn">Next</button>
         </div>
+        <div id="content-wrapper">
+          <h1 id="headline"></h1>
+          <p id="text"></p>
+          <div id="media"></div>
+        </div>
+      </div>
     </div>
     <script src="https://unpkg.com/maplibre-gl@5.0.0/dist/maplibre-gl.js"></script>
     <script src="https://unpkg.com/pmtiles@3.2.0/dist/pmtiles.js"></script>
     <script src="app.js"></script>
-</body>
+  </body>
 </html>
-
