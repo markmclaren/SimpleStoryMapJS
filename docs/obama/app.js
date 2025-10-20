@@ -227,6 +227,12 @@ function updateSlide(direction = "none") {
   // Update line colors
   updateLineColors();
 
+  // Update progress display
+  const progressDiv = document.getElementById("progress");
+  if (progressDiv && storyData) {
+    progressDiv.textContent = `${currentSlideIndex + 1}/${storyData.length}`;
+  }
+
   // Update button states
   updateButtonStates();
 }

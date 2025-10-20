@@ -145,13 +145,13 @@ body, html {
     margin-bottom: 20px;
 }
 
-button {
+button, #progress {
     padding: 12px 24px;
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
     background-color: var(--accent-color);
-    color: #ffffff;
+    color: var(--primary-text-color);
     border: none;
     border-radius: 8px;
     transition: background-color 0.3s, transform 0.2s;
