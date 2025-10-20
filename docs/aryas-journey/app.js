@@ -374,6 +374,7 @@ function updateMedia(slide) {
 function updateButtonStates() {
   const prevBtn = document.getElementById("prev-btn");
   const nextBtn = document.getElementById("next-btn");
+  const restartBtn = document.getElementById("restart-btn");
 
   // Disable previous button on first slide
   if (currentSlideIndex === 0) {
