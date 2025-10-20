@@ -150,6 +150,7 @@ button {
     display: inline-flex;
     align-items: center;
     gap: 8px;
+    z-index: 3;
 }
 
 button:hover {
