@@ -28,6 +28,9 @@ fetch("aryas-journey.json")
         container: "map",
         zoom: h.maxZoom - 2,
         center: [h.centerLon, h.centerLat],
+        renderWorldCopies: false,
+        minZoom: 0,
+        maxZoom: h.maxZoom,
         style: {
           version: 8,
           sources: {
@@ -80,6 +83,25 @@ function initializeMap() {
       createAllMarkers();
     });
   }
+
+  // Remove any existing attribution controls and add only one in compact mode
+  // This ensures only one attribution bar, regardless of style attribution
+  const controls = document.querySelectorAll(".maplibregl-ctrl-attrib");
+  controls.forEach((ctrl) => ctrl.remove());
+  const attributionControl = new maplibregl.AttributionControl({
+    compact: true,
+  });
+  map.addControl(attributionControl);
+  // Force the attribution bar to start closed (collapsed)
+  setTimeout(() => {
+    const detailsElem = document.querySelector(
+      "details.maplibregl-compact-show"
+    );
+    if (detailsElem && detailsElem.hasAttribute("open")) {
+      detailsElem.classList.remove("maplibregl-compact-show");
+      detailsElem.removeAttribute("open");
+    }
+  }, 100);
 }
 
 function isValidLocation(location) {
@@ -386,5 +408,27 @@ document.getElementById("next-btn").addEventListener("click", () => {
   if (currentSlideIndex < storyData.length - 1 && !isAnimating) {
     currentSlideIndex++;
     updateSlide("next");
+  }
+});
+
+// Keyboard navigation: left/right arrow keys for prev/next
+document.addEventListener("keydown", (event) => {
+  if (event.key === "ArrowLeft") {
+    const prevBtn = document.getElementById("prev-btn");
+    if (prevBtn && !prevBtn.disabled && currentSlideIndex > 0 && !isAnimating) {
+      currentSlideIndex--;
+      updateSlide("prev");
+    }
+  } else if (event.key === "ArrowRight") {
+    const nextBtn = document.getElementById("next-btn");
+    if (
+      nextBtn &&
+      !nextBtn.disabled &&
+      currentSlideIndex < storyData.length - 1 &&
+      !isAnimating
+    ) {
+      currentSlideIndex++;
+      updateSlide("next");
+    }
   }
 });

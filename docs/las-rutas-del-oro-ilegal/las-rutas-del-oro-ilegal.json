@@ -2,15 +2,21 @@
     "languages": {
         "en": {
             "name": "English",
-            "code": "en"
+            "code": "en",
+            "prev": "Previous",
+            "next": "Next"
         },
         "es": {
             "name": "Español",
-            "code": "es"
+            "code": "es",
+            "prev": "Anterior",
+            "next": "Siguiente"
         },
         "pt": {
             "name": "Português",
-            "code": "pt"
+            "code": "pt",
+            "prev": "Anterior",
+            "next": "Próximo"
         }
     },
     "storymaps": {
@@ -163,7 +169,7 @@
                             "lat": -13.53195,
                             "line": true,
                             "lon": -71.96746259999998,
-                            "zoom": 15,
+                            "zoom": 13,
                             "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
@@ -182,7 +188,7 @@
                             "lat": -15.4996879,
                             "line": true,
                             "lon": -70.12965299999996,
-                            "zoom": 14,
+                            "zoom": 13,
                             "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
@@ -201,7 +207,7 @@
                             "lat": -14.67837048718198,
                             "line": true,
                             "lon": -69.53522532275394,
-                            "zoom": 16,
+                            "zoom": 13,
                             "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
@@ -220,7 +226,7 @@
                             "lat": -14.622413074954345,
                             "line": true,
                             "lon": -69.44496631622314,
-                            "zoom": 16,
+                            "zoom": 13,
                             "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
@@ -239,7 +245,7 @@
                             "lat": -16.564914447891056,
                             "line": true,
                             "lon": -69.03951523544316,
-                            "zoom": 16,
+                            "zoom": 13,
                             "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
@@ -277,7 +283,7 @@
                             "lat": -16.49563694043469,
                             "line": true,
                             "lon": -68.1333446502685,
-                            "zoom": 16,
+                            "zoom": 13,
                             "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
@@ -619,7 +625,7 @@
                             "lat": -3.9766063262107116,
                             "line": true,
                             "lon": -78.83914293121342,
-                            "zoom": 15,
+                            "zoom": 13,
                             "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
@@ -843,7 +849,7 @@
                             "lat": -13.53195,
                             "line": true,
                             "lon": -71.96746259999998,
-                            "zoom": 15,
+                            "zoom": 13,
                             "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
@@ -862,7 +868,7 @@
                             "lat": -15.4996879,
                             "line": true,
                             "lon": -70.12965299999996,
-                            "zoom": 14,
+                            "zoom": 13,
                             "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
@@ -881,7 +887,7 @@
                             "lat": -14.67837048718198,
                             "line": true,
                             "lon": -69.53522532275394,
-                            "zoom": 16,
+                            "zoom": 13,
                             "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
@@ -900,7 +906,7 @@
                             "lat": -14.622413074954345,
                             "line": true,
                             "lon": -69.44496631622314,
-                            "zoom": 16,
+                            "zoom": 13,
                             "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
@@ -919,7 +925,7 @@
                             "lat": -16.564914447891056,
                             "line": true,
                             "lon": -69.03951523544316,
-                            "zoom": 16,
+                            "zoom": 13,
                             "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
@@ -957,7 +963,7 @@
                             "lat": -16.49563694043469,
                             "line": true,
                             "lon": -68.1333446502685,
-                            "zoom": 16,
+                            "zoom": 13,
                             "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
@@ -1299,7 +1305,7 @@
                             "lat": -3.9766063262107116,
                             "line": true,
                             "lon": -78.83914293121342,
-                            "zoom": 15,
+                            "zoom": 13,
                             "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
@@ -1523,7 +1529,7 @@
                             "lat": -13.53195,
                             "line": true,
                             "lon": -71.96746259999998,
-                            "zoom": 15,
+                            "zoom": 13,
                             "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
@@ -1542,7 +1548,7 @@
                             "lat": -15.4996879,
                             "line": true,
                             "lon": -70.12965299999996,
-                            "zoom": 14,
+                            "zoom": 13,
                             "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
@@ -1561,7 +1567,7 @@
                             "lat": -14.67837048718198,
                             "line": true,
                             "lon": -69.53522532275394,
-                            "zoom": 16,
+                            "zoom": 13,
                             "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
@@ -1580,7 +1586,7 @@
                             "lat": -14.622413074954345,
                             "line": true,
                             "lon": -69.44496631622314,
-                            "zoom": 16,
+                            "zoom": 13,
                             "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
@@ -1599,7 +1605,7 @@
                             "lat": -16.564914447891056,
                             "line": true,
                             "lon": -69.03951523544316,
-                            "zoom": 16,
+                            "zoom": 13,
                             "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
@@ -1637,7 +1643,7 @@
                             "lat": -16.49563694043469,
                             "line": true,
                             "lon": -68.1333446502685,
-                            "zoom": 16,
+                            "zoom": 13,
                             "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
@@ -1979,7 +1985,7 @@
                             "lat": -3.9766063262107116,
                             "line": true,
                             "lon": -78.83914293121342,
-                            "zoom": 15,
+                            "zoom": 13,
                             "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {

@@ -20,6 +20,7 @@ body, html {
     height: 100vh;
     flex-shrink: 0;
     position: relative;
+    background-color: var(--primary-bg-color);
 }
 
 #story-content {
@@ -31,6 +32,7 @@ body, html {
     color: var(--primary-text-color);
     box-sizing: border-box;
     z-index: 2;
+    overflow-x: hidden
 }
 
 /* Gradient border effect on desktop (side-by-side layout) */

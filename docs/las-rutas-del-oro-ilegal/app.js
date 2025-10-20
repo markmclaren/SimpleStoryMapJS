@@ -25,10 +25,10 @@ const sentinel2Style = {
     "sentinel2-tiles": {
       type: "raster",
       tiles: [
-        "https://tiles.maps.eox.at/wmts/1.0.0/s2cloudless-2024_3857/default/GoogleMapsCompatible/{z}/{y}/{x}.jpg",
+        "https://tiles.maps.eox.at/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpg",
       ],
       minzoom: 0,
-      maxzoom: 14,
+      maxzoom: 13,
       scheme: "xyz",
       tileSize: 256,
       attribution:
@@ -66,11 +66,24 @@ function initializeMap() {
       zoom: parseFloat(firstValidSlide.location.zoom) || 2,
     });
 
-    map.addControl(
-      new maplibregl.AttributionControl({
-        compact: true,
-      })
-    );
+    // Remove any existing attribution controls and add only one in compact mode
+    // This ensures only one attribution bar, regardless of style attribution
+    const controls = document.querySelectorAll(".maplibregl-ctrl-attrib");
+    controls.forEach((ctrl) => ctrl.remove());
+    const attributionControl = new maplibregl.AttributionControl({
+      compact: true,
+    });
+    map.addControl(attributionControl);
+    // Force the attribution bar to start closed (collapsed)
+    setTimeout(() => {
+      const detailsElem = document.querySelector(
+        "details.maplibregl-compact-show"
+      );
+      if (detailsElem && detailsElem.hasAttribute("open")) {
+        detailsElem.classList.remove('maplibregl-compact-show');
+        detailsElem.removeAttribute("open");
+      }
+    }, 100);
 
     // Wait for map to load, then create all lines and markers
     map.on("load", () => {
@@ -340,6 +353,8 @@ function initializeLanguageSelector() {
 
     // Add event listener for language changes
     languageSelector.addEventListener("change", switchLanguage);
+    // Set initial button text
+    updateNavButtonText();
   }
 }
 
@@ -375,6 +390,23 @@ function switchLanguage() {
 
     // Update call-to-action text if it exists
     updateCallToActionText();
+
+    // Update navigation button text
+    updateNavButtonText();
+  }
+
+}
+
+function updateNavButtonText() {
+  // Update the Next and Previous button text based on current language
+  const prevBtn = document.getElementById("prev-btn");
+  const nextBtn = document.getElementById("next-btn");
+  const langData = fullData.languages[currentLanguage];
+  if (prevBtn && langData && langData.prev) {
+    prevBtn.textContent = langData.prev;
+  }
+  if (nextBtn && langData && langData.next) {
+    nextBtn.textContent = langData.next;
   }
 }
 
@@ -410,3 +442,20 @@ function updateCallToActionText() {
     callToActionBtn.textContent = callToActionText;
   }
 }
+
+// Keyboard navigation: left/right arrow keys for prev/next
+document.addEventListener("keydown", (event) => {
+  if (event.key === "ArrowLeft") {
+    const prevBtn = document.getElementById("prev-btn");
+    if (prevBtn && !prevBtn.disabled && currentSlideIndex > 0 && !isAnimating) {
+      currentSlideIndex--;
+      updateSlide("prev");
+    }
+  } else if (event.key === "ArrowRight") {
+    const nextBtn = document.getElementById("next-btn");
+    if (nextBtn && !nextBtn.disabled && currentSlideIndex < storyData.length - 1 && !isAnimating) {
+      currentSlideIndex++;
+      updateSlide("next");
+    }
+  }
+});
