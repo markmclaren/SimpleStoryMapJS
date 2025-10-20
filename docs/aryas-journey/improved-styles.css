@@ -32,7 +32,15 @@ body, html {
     color: var(--primary-text-color);
     box-sizing: border-box;
     z-index: 2;
-    overflow-x: hidden
+    overflow-x: hidden;
+    text-shadow: 1px 1px 2px black;
+}
+
+#text, #headline{
+  background-color: rgba(0, 0, 0, 0.2); /* Slightly dark/transparent background */
+  padding: 15px;
+  backdrop-filter: blur(5px); /* Blurs the image *behind* this box */
+  -webkit-backdrop-filter: blur(5px); /* For Safari compatibility */
 }
 
 /* Gradient border effect on desktop (side-by-side layout) */
@@ -56,8 +64,8 @@ body, html {
 
     #map {
         width: 100%;
-        height: 50vh;
-        min-height: 300px;
+        height: 40vh;
+        min-height: 200px;
     }
 
     #story-content {
