@@ -304,10 +304,16 @@ function updateButtonStates() {
     prevBtn.disabled = true;
     prevBtn.style.opacity = "0.5";
     prevBtn.style.cursor = "not-allowed";
+    restartBtn.disabled = true;
+    restartBtn.style.opacity = "0.5";
+    restartBtn.style.cursor = "not-allowed"; 
   } else {
     prevBtn.disabled = false;
     prevBtn.style.opacity = "1";
     prevBtn.style.cursor = "pointer";
+    restartBtn.disabled = false;
+    restartBtn.style.opacity = "1";
+    restartBtn.style.cursor = "pointer";
   }
 
   // Disable next button on last slide
@@ -315,16 +321,10 @@ function updateButtonStates() {
     nextBtn.disabled = true;
     nextBtn.style.opacity = "0.5";
     nextBtn.style.cursor = "not-allowed";
-    restartBtn.disabled = true;
-    restartBtn.style.opacity = "0.5";
-    restartBtn.style.cursor = "not-allowed"; 
   } else {
     nextBtn.disabled = false;
     nextBtn.style.opacity = "1";
     nextBtn.style.cursor = "pointer";
-    restartBtn.disabled = false;
-    restartBtn.style.opacity = "1";
-    restartBtn.style.cursor = "pointer";
   }
 }
 
