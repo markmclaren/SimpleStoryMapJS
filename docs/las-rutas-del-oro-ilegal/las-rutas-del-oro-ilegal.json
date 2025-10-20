@@ -36,12 +36,12 @@
                         },
                         "location": {
                             "line": true,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "background": {},
                         "text": {
                             "headline": "THE ROUTES OF ILLEGAL GOLD",
-                            "text": "<p><span>Illegal mining in South America is one of the main threats to the ecosystem. A team from <b>OjoPúblico</b> visited the centers of illegal gold production in Peru, Bolivia, Colombia, Brazil, and Ecuador, and verified the ways in which illegally sourced metal is incorporated into commercial chains.</span><br></p><p><b><a href=\"http://infoamazonia.org/es/\" target=\"_blank\" rel=\"nofollow\" title=\"Link: http://infoamazonia.org/es/\">Map: Infoamazonía (Terra i Initiative - Ciat)</a></b></p><p><a href='https://infoamazonia.org/en/2015/06/10/interactive-map-know-illegal-gold-routes-in-south-america/'>Interactive map: Know illegal gold routes in South America</a></p>"
+                            "text": "<p><span>Illegal mining in South America is one of the main threats to the ecosystem. A team from <b>OjoPúblico</b> visited the centers of illegal gold production in Peru, Bolivia, Colombia, Brazil, and Ecuador, and verified the ways in which illegally sourced metal is incorporated into commercial chains.</span><br></p><p><b><a href=\"https://infoamazonia.org/es/\" target=\"_blank\" rel=\"nofollow\" title=\"Link: https://infoamazonia.org/es/\">Map: Infoamazonía (Terra i Initiative - Ciat)</a></b></p><p><a href='https://infoamazonia.org/en/2015/06/10/interactive-map-know-illegal-gold-routes-in-south-america/'>Interactive map: Know illegal gold routes in South America</a></p>"
                         },
                         "date": "",
                         "type": "overview"
@@ -58,7 +58,7 @@
                             "line": true,
                             "lon": -77.0427934,
                             "zoom": 4,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "PERU",
@@ -77,7 +77,7 @@
                             "line": true,
                             "lon": -77.13697062812503,
                             "zoom": 12,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -96,7 +96,7 @@
                             "line": true,
                             "lon": -69.1963141,
                             "zoom": 6,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "background": {},
                         "text": {
@@ -116,7 +116,7 @@
                             "line": true,
                             "lon": -70.5215835571289,
                             "zoom": 12,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -135,7 +135,7 @@
                             "line": true,
                             "lon": -70.02303529140625,
                             "zoom": 9,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -154,7 +154,7 @@
                             "line": true,
                             "lon": -70.40794372558594,
                             "zoom": 12,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -173,7 +173,7 @@
                             "line": true,
                             "lon": -71.96746259999998,
                             "zoom": 13,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -192,7 +192,7 @@
                             "line": true,
                             "lon": -70.12965299999996,
                             "zoom": 13,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -211,7 +211,7 @@
                             "line": true,
                             "lon": -69.53522532275394,
                             "zoom": 13,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -230,7 +230,7 @@
                             "line": true,
                             "lon": -69.44496631622314,
                             "zoom": 13,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -249,7 +249,7 @@
                             "line": true,
                             "lon": -69.03951523544316,
                             "zoom": 13,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -268,7 +268,7 @@
                             "line": true,
                             "lon": -63.58865300000002,
                             "zoom": 5,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "Bolivia",
@@ -287,7 +287,7 @@
                             "line": true,
                             "lon": -68.1333446502685,
                             "zoom": 13,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -306,7 +306,7 @@
                             "line": true,
                             "lon": -69.07168969999998,
                             "zoom": 13,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -325,7 +325,7 @@
                             "line": true,
                             "lon": -69.3460464477539,
                             "zoom": 12,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -344,7 +344,7 @@
                             "line": true,
                             "lon": -66.06477510058596,
                             "zoom": 12,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -363,7 +363,7 @@
                             "line": true,
                             "lon": -65.35441394433599,
                             "zoom": 12,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -382,7 +382,7 @@
                             "line": true,
                             "lon": -51.74949874999999,
                             "zoom": 4,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "BRAZIL",
@@ -401,7 +401,7 @@
                             "line": true,
                             "lon": -46.62918450000001,
                             "zoom": 9,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -420,7 +420,7 @@
                             "line": true,
                             "lon": -63.90043029999998,
                             "zoom": 9,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -439,7 +439,7 @@
                             "line": true,
                             "lon": -65.33020019531244,
                             "zoom": 12,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -458,7 +458,7 @@
                             "line": true,
                             "lon": -73.08883690624998,
                             "zoom": 6,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "COLOMBIA",
@@ -477,7 +477,7 @@
                             "line": true,
                             "lon": -75.58121189999997,
                             "zoom": 11,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -496,7 +496,7 @@
                             "line": true,
                             "lon": -76.75048828125,
                             "zoom": 8,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -515,7 +515,7 @@
                             "line": true,
                             "lon": -75.82732389941407,
                             "zoom": 12,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -534,7 +534,7 @@
                             "line": true,
                             "lon": -73.8419063,
                             "zoom": 6,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -553,7 +553,7 @@
                             "line": true,
                             "lon": -75.36850099999998,
                             "zoom": 12,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -572,7 +572,7 @@
                             "line": true,
                             "lon": -78.48003685937499,
                             "zoom": 7,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "ECUADOR",
@@ -591,7 +591,7 @@
                             "line": true,
                             "lon": -79.92922565507814,
                             "zoom": 11,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -610,7 +610,7 @@
                             "line": true,
                             "lon": -78.95554047221373,
                             "zoom": 13,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -629,7 +629,7 @@
                             "line": true,
                             "lon": -78.83914293121342,
                             "zoom": 13,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -648,7 +648,7 @@
                             "line": true,
                             "lon": -78.67532970000002,
                             "zoom": 13,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -667,7 +667,7 @@
                             "line": true,
                             "lon": -79.65661416269523,
                             "zoom": 11,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -686,7 +686,7 @@
                             "line": true,
                             "lon": 0,
                             "zoom": 1,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -716,12 +716,12 @@
                         },
                         "location": {
                             "line": true,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "background": {},
                         "text": {
                             "headline": "LAS RUTAS DEL ORO ILEGAL",
-                            "text": "<p><span>La minería ilegal en Sudamérica es una de las principales amenazas para el ecosistema. Un equipo de <b>OjoPúblico</b> recorrió los centros de producción de oro ilegal en Perú, Bolivia, Colombia, Brasil y &nbsp;Ecuador, y constató las formas en las que el metal de origen ilegal se incorpora a las cadenas de comercialización.</span><br></p><p><b><a href=\"http://infoamazonia.org/es/\" target=\"_blank\" rel=\"nofollow\" title=\"Link: http://infoamazonia.org/es/\">Mapa: Infoamazonía (Iniciativa Terra i - Ciat)</a></b></p><p><a href='https://infoamazonia.org/es/2015/06/10/mapa-interactivo-conozca-las-rutas-del-oro-ilegal-en-sudamerica/'>Mapa Interactivo: Conozca las rutas del oro ilegal en Sudamérica</a></p>"
+                            "text": "<p><span>La minería ilegal en Sudamérica es una de las principales amenazas para el ecosistema. Un equipo de <b>OjoPúblico</b> recorrió los centros de producción de oro ilegal en Perú, Bolivia, Colombia, Brasil y &nbsp;Ecuador, y constató las formas en las que el metal de origen ilegal se incorpora a las cadenas de comercialización.</span><br></p><p><b><a href=\"https://infoamazonia.org/es/\" target=\"_blank\" rel=\"nofollow\" title=\"Link: https://infoamazonia.org/es/\">Mapa: Infoamazonía (Iniciativa Terra i - Ciat)</a></b></p><p><a href='https://infoamazonia.org/es/2015/06/10/mapa-interactivo-conozca-las-rutas-del-oro-ilegal-en-sudamerica/'>Mapa Interactivo: Conozca las rutas del oro ilegal en Sudamérica</a></p>"
                         },
                         "date": "",
                         "type": "overview"
@@ -738,7 +738,7 @@
                             "line": true,
                             "lon": -77.0427934,
                             "zoom": 4,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "PERÚ",
@@ -757,7 +757,7 @@
                             "line": true,
                             "lon": -77.13697062812503,
                             "zoom": 12,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -776,7 +776,7 @@
                             "line": true,
                             "lon": -69.1963141,
                             "zoom": 6,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "background": {},
                         "text": {
@@ -796,7 +796,7 @@
                             "line": true,
                             "lon": -70.5215835571289,
                             "zoom": 12,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -815,7 +815,7 @@
                             "line": true,
                             "lon": -70.02303529140625,
                             "zoom": 9,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -834,7 +834,7 @@
                             "line": true,
                             "lon": -70.40794372558594,
                             "zoom": 12,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -853,7 +853,7 @@
                             "line": true,
                             "lon": -71.96746259999998,
                             "zoom": 13,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -872,7 +872,7 @@
                             "line": true,
                             "lon": -70.12965299999996,
                             "zoom": 13,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -891,7 +891,7 @@
                             "line": true,
                             "lon": -69.53522532275394,
                             "zoom": 13,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -910,7 +910,7 @@
                             "line": true,
                             "lon": -69.44496631622314,
                             "zoom": 13,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -929,7 +929,7 @@
                             "line": true,
                             "lon": -69.03951523544316,
                             "zoom": 13,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -948,7 +948,7 @@
                             "line": true,
                             "lon": -63.58865300000002,
                             "zoom": 5,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "Bolivia",
@@ -967,7 +967,7 @@
                             "line": true,
                             "lon": -68.1333446502685,
                             "zoom": 13,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -986,7 +986,7 @@
                             "line": true,
                             "lon": -69.07168969999998,
                             "zoom": 13,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -1005,7 +1005,7 @@
                             "line": true,
                             "lon": -69.3460464477539,
                             "zoom": 12,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -1024,7 +1024,7 @@
                             "line": true,
                             "lon": -66.06477510058596,
                             "zoom": 12,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -1043,7 +1043,7 @@
                             "line": true,
                             "lon": -65.35441394433599,
                             "zoom": 12,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -1062,7 +1062,7 @@
                             "line": true,
                             "lon": -51.74949874999999,
                             "zoom": 4,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "BRASIL",
@@ -1081,7 +1081,7 @@
                             "line": true,
                             "lon": -46.62918450000001,
                             "zoom": 9,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -1100,7 +1100,7 @@
                             "line": true,
                             "lon": -63.90043029999998,
                             "zoom": 9,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -1119,7 +1119,7 @@
                             "line": true,
                             "lon": -65.33020019531244,
                             "zoom": 12,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -1138,7 +1138,7 @@
                             "line": true,
                             "lon": -73.08883690624998,
                             "zoom": 6,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "COLOMBIA",
@@ -1157,7 +1157,7 @@
                             "line": true,
                             "lon": -75.58121189999997,
                             "zoom": 11,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -1176,7 +1176,7 @@
                             "line": true,
                             "lon": -76.75048828125,
                             "zoom": 8,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -1195,7 +1195,7 @@
                             "line": true,
                             "lon": -75.82732389941407,
                             "zoom": 12,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -1214,7 +1214,7 @@
                             "line": true,
                             "lon": -73.8419063,
                             "zoom": 6,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -1233,7 +1233,7 @@
                             "line": true,
                             "lon": -75.36850099999998,
                             "zoom": 12,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -1252,7 +1252,7 @@
                             "line": true,
                             "lon": -78.48003685937499,
                             "zoom": 7,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "ECUADOR",
@@ -1271,7 +1271,7 @@
                             "line": true,
                             "lon": -79.92922565507814,
                             "zoom": 11,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -1290,7 +1290,7 @@
                             "line": true,
                             "lon": -78.95554047221373,
                             "zoom": 13,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -1309,7 +1309,7 @@
                             "line": true,
                             "lon": -78.83914293121342,
                             "zoom": 13,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -1328,7 +1328,7 @@
                             "line": true,
                             "lon": -78.67532970000002,
                             "zoom": 13,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -1347,7 +1347,7 @@
                             "line": true,
                             "lon": -79.65661416269523,
                             "zoom": 11,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -1366,7 +1366,7 @@
                             "line": true,
                             "lon": 0,
                             "zoom": 1,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -1396,12 +1396,12 @@
                         },
                         "location": {
                             "line": true,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "background": {},
                         "text": {
                             "headline": "AS ROTAS DO OURO ILEGAL",
-                            "text": "<p><span>A mineração ilegal na América do Sul é uma das principais ameaças ao ecossistema. Uma equipe do <b>OjoPúblico</b> percorreu os centros de produção de ouro ilegal no Peru, Bolívia, Colômbia, Brasil e Equador, e constatou as formas pelas quais o metal de origem ilegal é incorporado às cadeias de comercialização.</span><br></p><p><b><a href=\"http://infoamazonia.org/es/\" target=\"_blank\" rel=\"nofollow\" title=\"Link: http://infoamazonia.org/es/\">Mapa: Infoamazônia (Iniciativa Terra i - Ciat)</a></b></p><p><a href='https://infoamazonia.org/2015/06/10/mapa-interativo-conheca-as-rotas-do-ouro-ilegal-na-america-do-sul/'>Mapa interativo: Conheça as rotas do ouro ilegal na América do Sul</a></p>"
+                            "text": "<p><span>A mineração ilegal na América do Sul é uma das principais ameaças ao ecossistema. Uma equipe do <b>OjoPúblico</b> percorreu os centros de produção de ouro ilegal no Peru, Bolívia, Colômbia, Brasil e Equador, e constatou as formas pelas quais o metal de origem ilegal é incorporado às cadeias de comercialização.</span><br></p><p><b><a href=\"https://infoamazonia.org/es/\" target=\"_blank\" rel=\"nofollow\" title=\"Link: https://infoamazonia.org/es/\">Mapa: Infoamazônia (Iniciativa Terra i - Ciat)</a></b></p><p><a href='https://infoamazonia.org/2015/06/10/mapa-interativo-conheca-as-rotas-do-ouro-ilegal-na-america-do-sul/'>Mapa interativo: Conheça as rotas do ouro ilegal na América do Sul</a></p>"
                         },
                         "date": "",
                         "type": "overview"
@@ -1418,7 +1418,7 @@
                             "line": true,
                             "lon": -77.0427934,
                             "zoom": 4,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "PERU",
@@ -1437,7 +1437,7 @@
                             "line": true,
                             "lon": -77.13697062812503,
                             "zoom": 12,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -1456,7 +1456,7 @@
                             "line": true,
                             "lon": -69.1963141,
                             "zoom": 6,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "background": {},
                         "text": {
@@ -1476,7 +1476,7 @@
                             "line": true,
                             "lon": -70.5215835571289,
                             "zoom": 12,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -1495,7 +1495,7 @@
                             "line": true,
                             "lon": -70.02303529140625,
                             "zoom": 9,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -1514,7 +1514,7 @@
                             "line": true,
                             "lon": -70.40794372558594,
                             "zoom": 12,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -1533,7 +1533,7 @@
                             "line": true,
                             "lon": -71.96746259999998,
                             "zoom": 13,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -1552,7 +1552,7 @@
                             "line": true,
                             "lon": -70.12965299999996,
                             "zoom": 13,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -1571,7 +1571,7 @@
                             "line": true,
                             "lon": -69.53522532275394,
                             "zoom": 13,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -1590,7 +1590,7 @@
                             "line": true,
                             "lon": -69.44496631622314,
                             "zoom": 13,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -1609,7 +1609,7 @@
                             "line": true,
                             "lon": -69.03951523544316,
                             "zoom": 13,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -1628,7 +1628,7 @@
                             "line": true,
                             "lon": -63.58865300000002,
                             "zoom": 5,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "Bolívia",
@@ -1647,7 +1647,7 @@
                             "line": true,
                             "lon": -68.1333446502685,
                             "zoom": 13,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -1666,7 +1666,7 @@
                             "line": true,
                             "lon": -69.07168969999998,
                             "zoom": 13,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -1685,7 +1685,7 @@
                             "line": true,
                             "lon": -69.3460464477539,
                             "zoom": 12,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -1704,7 +1704,7 @@
                             "line": true,
                             "lon": -66.06477510058596,
                             "zoom": 12,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -1723,7 +1723,7 @@
                             "line": true,
                             "lon": -65.35441394433599,
                             "zoom": 12,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -1742,7 +1742,7 @@
                             "line": true,
                             "lon": -51.74949874999999,
                             "zoom": 4,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "BRASIL",
@@ -1761,7 +1761,7 @@
                             "line": true,
                             "lon": -46.62918450000001,
                             "zoom": 9,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -1780,7 +1780,7 @@
                             "line": true,
                             "lon": -63.90043029999998,
                             "zoom": 9,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -1799,7 +1799,7 @@
                             "line": true,
                             "lon": -65.33020019531244,
                             "zoom": 12,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -1818,7 +1818,7 @@
                             "line": true,
                             "lon": -73.08883690624998,
                             "zoom": 6,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "COLÔMBIA",
@@ -1837,7 +1837,7 @@
                             "line": true,
                             "lon": -75.58121189999997,
                             "zoom": 11,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -1856,7 +1856,7 @@
                             "line": true,
                             "lon": -76.75048828125,
                             "zoom": 8,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -1875,7 +1875,7 @@
                             "line": true,
                             "lon": -75.82732389941407,
                             "zoom": 12,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -1894,7 +1894,7 @@
                             "line": true,
                             "lon": -73.8419063,
                             "zoom": 6,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -1913,7 +1913,7 @@
                             "line": true,
                             "lon": -75.36850099999998,
                             "zoom": 12,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -1932,7 +1932,7 @@
                             "line": true,
                             "lon": -78.48003685937499,
                             "zoom": 7,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "EQUADOR",
@@ -1951,7 +1951,7 @@
                             "line": true,
                             "lon": -79.92922565507814,
                             "zoom": 11,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -1970,7 +1970,7 @@
                             "line": true,
                             "lon": -78.95554047221373,
                             "zoom": 13,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -1989,7 +1989,7 @@
                             "line": true,
                             "lon": -78.83914293121342,
                             "zoom": 13,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -2008,7 +2008,7 @@
                             "line": true,
                             "lon": -78.67532970000002,
                             "zoom": 13,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -2027,7 +2027,7 @@
                             "line": true,
                             "lon": -79.65661416269523,
                             "zoom": 11,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",
@@ -2046,7 +2046,7 @@
                             "line": true,
                             "lon": 0,
                             "zoom": 1,
-                            "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
                         "text": {
                             "headline": "",

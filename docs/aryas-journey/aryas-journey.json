@@ -9,7 +9,7 @@
                 },
                 "location": {
                     "line": true,
-                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                    "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                 },
                 "background": {
                     "color": "#121619",
@@ -35,7 +35,7 @@
                     "line": true,
                     "lon": -131.923828125,
                     "zoom": 4,
-                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                    "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                 },
                 "background": {
                     "color": "#121619",
@@ -58,7 +58,7 @@
                     "line": true,
                     "lon": -126.298828125,
                     "zoom": 4,
-                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                    "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                 },
                 "background": {
                     "color": "#121619",
@@ -81,7 +81,7 @@
                     "line": true,
                     "lon": -116.98242187499999,
                     "zoom": 4,
-                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                    "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                 },
                 "background": {
                     "color": "#121619",
@@ -105,7 +105,7 @@
                     "line": true,
                     "lon": -125.2880859375,
                     "zoom": 5,
-                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                    "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                 },
                 "background": {
                     "color": "#121619",
@@ -128,7 +128,7 @@
                     "line": true,
                     "lon": -126.826171875,
                     "zoom": 4,
-                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                    "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                 },
                 "background": {
                     "color": "#121619",
@@ -152,7 +152,7 @@
                     "line": true,
                     "lon": -126.38671874999999,
                     "zoom": 5,
-                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                    "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                 },
                 "background": {
                     "color": "#121619"
@@ -174,7 +174,7 @@
                     "line": true,
                     "lon": -128.935546875,
                     "zoom": 5,
-                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                    "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                 },
                 "background": {
                     "color": "#121619",
@@ -197,7 +197,7 @@
                     "line": true,
                     "lon": -131.1376954615116,
                     "zoom": 5,
-                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                    "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                 },
                 "background": {
                     "color": "#121619",
@@ -220,7 +220,7 @@
                     "line": true,
                     "lon": -133.3740234375,
                     "zoom": 5,
-                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                    "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                 },
                 "background": {
                     "color": "#121619",
@@ -244,7 +244,7 @@
                     "line": true,
                     "lon": -133.2861328125,
                     "zoom": 5,
-                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                    "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                 },
                 "background": {
                     "color": "#121619",
@@ -268,7 +268,7 @@
                     "line": true,
                     "lon": -133.9453125,
                     "zoom": 5,
-                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                    "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                 },
                 "background": {
                     "color": "#121619",
@@ -292,7 +292,7 @@
                     "line": true,
                     "lon": -132.802734375,
                     "zoom": 5,
-                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                    "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                 },
                 "background": {
                     "color": "#121619",
@@ -316,7 +316,7 @@
                     "line": true,
                     "lon": -136.3671876490116,
                     "zoom": 5,
-                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                    "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                 },
                 "background": {
                     "url": "https://uploads.knightlab.com/storymapjs/a1a349b51799ee49e96bed10cc235e7f/aryas-journey/_images/Thoros and Beric.jpg"
@@ -338,7 +338,7 @@
                     "line": true,
                     "lon": -126.03515625,
                     "zoom": 5,
-                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                    "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                 },
                 "background": {
                     "color": "#121619"
@@ -360,7 +360,7 @@
                     "line": true,
                     "lon": -134.736328125,
                     "zoom": 5,
-                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                    "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                 },
                 "background": {
                     "color": "#121619",
@@ -383,7 +383,7 @@
                     "line": true,
                     "lon": -128.32031249999997,
                     "zoom": 5,
-                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                    "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                 },
                 "background": {
                     "color": "#121619",
@@ -406,7 +406,7 @@
                     "line": true,
                     "lon": -124.5849609375,
                     "zoom": 5,
-                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                    "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                 },
                 "background": {
                     "color": "#121619",
@@ -429,7 +429,7 @@
                     "line": true,
                     "lon": -123.92578125,
                     "zoom": 6,
-                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                    "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                 },
                 "background": {
                     "color": "#121619",
@@ -452,7 +452,7 @@
                     "line": true,
                     "lon": -120.12451171875,
                     "zoom": 6,
-                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                    "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                 },
                 "background": {
                     "color": "#121619",
@@ -475,7 +475,7 @@
                     "line": true,
                     "lon": -87.451171875,
                     "zoom": 5,
-                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                    "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                 },
                 "background": {
                     "color": "#121619",
@@ -489,7 +489,7 @@
             {
                 "date": "",
                 "media": {
-                    "url": "http://www.youtube.com/watch?v=xZY43QSx3Fk",
+                    "url": "https://www.youtube.com/watch?v=xZY43QSx3Fk",
                     "caption": "Season 4 trailer featuring \"Feral Love\" by Chelsea Wolfe",
                     "credit": "HBO"
                 },
@@ -498,7 +498,7 @@
                     "line": true,
                     "lon": -128.935546875,
                     "zoom": 5,
-                    "icon": "http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
+                    "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                 },
                 "background": {
                     "color": "#121619"
@@ -512,7 +512,7 @@
         "map_background_color": "#121619",
         "map_as_image": false,
         "zoomify": {
-            "path": "http://gigapixel.knightlab.com/gameofthrones/",
+            "path": "https://gigapixel.knightlab.com/gameofthrones/",
             "tolerance": 0.9,
             "attribution": "\"Google Search\" //\"Google Art Project\"",
             "width": 21920,

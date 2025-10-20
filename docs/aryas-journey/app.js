@@ -49,16 +49,17 @@ fetch("aryas-journey.json")
         },
       });
 
+      // Add attribution control after map is created
+      map.addControl(
+        new maplibregl.AttributionControl({
+          compact: true,
+        })
+      );
+
       // Initialize the story map functionality once PMTiles map is loaded
       initializeMap();
       updateSlide();
     });
-
-    map.addControl(
-      new maplibregl.AttributionControl({
-        compact: true,
-      })
-    );
   });
 function initializeMap() {
   // Find the first slide with valid coordinates
