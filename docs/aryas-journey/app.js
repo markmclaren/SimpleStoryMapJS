@@ -5,6 +5,21 @@ let markers = []; // Track all markers
 let lines = []; // Track all line segments
 let isAnimating = false; // Prevent multiple animations at once
 
+// Styling constants
+const MARKER_RADIUS = 10;
+const MARKER_RADIUS_ACTIVE = 12;
+const MARKER_COLOR = "#888888";
+const MARKER_COLOR_ACTIVE = "#ff0000";
+const MARKER_STROKE_WIDTH = 2;
+const MARKER_STROKE_WIDTH_ACTIVE = 3;
+const MARKER_STROKE_COLOR = "#ffffff";
+
+const LINE_COLOR = "#000000";
+const LINE_COLOR_ACTIVE = "#ff0000";
+const LINE_WIDTH = 2;
+const LINE_WIDTH_ACTIVE = 2;
+const LINE_DASHARRAY = [2, 2];
+
 // add the PMTiles plugin to the maplibregl global.
 const protocol = new pmtiles.Protocol();
 maplibregl.addProtocol("pmtiles", protocol.tile);
@@ -164,9 +179,9 @@ function createAllLines() {
           "line-cap": "round",
         },
         paint: {
-          "line-color": "#888888",
-          "line-width": 3,
-          "line-dasharray": [3, 2], // More visible dash pattern - 3px dash, 2px gap
+          "line-color": LINE_COLOR,
+          "line-width": LINE_WIDTH,
+          "line-dasharray": LINE_DASHARRAY,
         },
       });
 
@@ -176,27 +191,125 @@ function createAllLines() {
 }
 
 function createAllMarkers() {
-  // Create markers for all slides that have valid locations and icons
-  storyData.forEach((slide, index) => {
-    if (isValidLocation(slide.location) && slide.location.icon) {
-      const el = document.createElement("div");
-      el.className = "marker";
-      el.style.backgroundImage = `url(${slide.location.icon})`;
-      el.style.width = "32px";
-      el.style.height = "32px";
-      el.style.backgroundSize = "contain";
-      el.style.backgroundRepeat = "no-repeat";
-      el.style.cursor = "pointer";
+  // Create all markers in the inactive layer first
+  createInactiveMarkers();
 
-      const marker = new maplibregl.Marker({ element: el })
-        .setLngLat([
-          parseFloat(slide.location.lon),
-          parseFloat(slide.location.lat),
-        ])
-        .addTo(map);
+  // Create empty active marker layer
+  createActiveMarker();
 
-      markers[index] = marker;
+  // Move the current slide's marker to active layer
+  moveMarkerToActive(currentSlideIndex);
+}
+
+function createInactiveMarkers() {
+  // Collect all valid marker locations
+  const inactiveMarkerFeatures = storyData
+    .map((slide, index) => {
+      if (isValidLocation(slide.location)) {
+        return {
+          type: "Feature",
+          properties: {
+            slideIndex: index,
+            isActive: false,
+            isClickable: true
+          },
+          geometry: {
+            type: "Point",
+            coordinates: [
+              parseFloat(slide.location.lon),
+              parseFloat(slide.location.lat)
+            ]
+          }
+        };
+      }
+      return null;
+    })
+    .filter(feature => feature !== null);
+
+  // Add source for inactive markers
+  map.addSource("inactive-markers", {
+    type: "geojson",
+    data: {
+      type: "FeatureCollection",
+      features: inactiveMarkerFeatures
     }
+  });
+
+  // Add circle layer for inactive markers
+  map.addLayer({
+    id: "inactive-marker-circles",
+    type: "circle",
+    source: "inactive-markers",
+    paint: {
+      "circle-radius": MARKER_RADIUS,
+      "circle-color": MARKER_COLOR,
+      "circle-stroke-width": MARKER_STROKE_WIDTH,
+      "circle-stroke-color": MARKER_STROKE_COLOR,
+      "circle-opacity": 1
+    }
+  });
+
+  // Add click event listener to the inactive markers layer
+  map.on("click", "inactive-marker-circles", (e) => {
+    if (e.features.length > 0) {
+      const clickedSlideIndex = e.features[0].properties.slideIndex;
+      if (clickedSlideIndex !== currentSlideIndex && !isAnimating) {
+        navigateToSlide(clickedSlideIndex);
+      }
+    }
+  });
+
+  // Add hover effects for inactive markers
+  map.on("mouseenter", "inactive-marker-circles", () => {
+    map.getCanvas().style.cursor = "pointer";
+  });
+
+  map.on("mouseleave", "inactive-marker-circles", () => {
+    map.getCanvas().style.cursor = "";
+  });
+}
+
+function createActiveMarker() {
+  // Add source for active marker (initially empty)
+  map.addSource("active-marker", {
+    type: "geojson",
+    data: {
+      type: "FeatureCollection",
+      features: []
+    }
+  });
+
+  // Add circle layer for active marker (added last so it renders on top)
+  map.addLayer({
+    id: "active-marker-circle",
+    type: "circle",
+    source: "active-marker",
+    paint: {
+      "circle-radius": MARKER_RADIUS_ACTIVE,
+      "circle-color": MARKER_COLOR_ACTIVE,
+      "circle-stroke-width": MARKER_STROKE_WIDTH_ACTIVE,
+      "circle-stroke-color": MARKER_STROKE_COLOR,
+      "circle-opacity": 1
+    }
+  });
+
+  // Add click event listener to the active marker layer
+  map.on("click", "active-marker-circle", (e) => {
+    if (e.features.length > 0) {
+      const clickedSlideIndex = e.features[0].properties.slideIndex;
+      if (clickedSlideIndex !== currentSlideIndex && !isAnimating) {
+        navigateToSlide(clickedSlideIndex);
+      }
+    }
+  });
+
+  // Add hover effects for active marker
+  map.on("mouseenter", "active-marker-circle", () => {
+    map.getCanvas().style.cursor = "pointer";
+  });
+
+  map.on("mouseleave", "active-marker-circle", () => {
+    map.getCanvas().style.cursor = "";
   });
 }
 
@@ -205,10 +318,10 @@ function updateLineColors() {
   lines.forEach((line) => {
     if (line.targetSlideIndex === currentSlideIndex) {
       // This line leads to the current slide, make it red
-      map.setPaintProperty(line.id, "line-color", "#ff0000");
+      map.setPaintProperty(line.id, "line-color", LINE_COLOR_ACTIVE);
     } else {
       // All other lines are grey
-      map.setPaintProperty(line.id, "line-color", "#888888");
+      map.setPaintProperty(line.id, "line-color", LINE_COLOR);
     }
   });
 }
@@ -341,6 +454,7 @@ function updateSlide(direction = "none") {
 
   // Update line colors
   updateLineColors();
+  updateMarkerColors();
 
   // Update progress display
   const progressDiv = document.getElementById("progress");
@@ -377,6 +491,89 @@ function updateMedia(slide) {
   }
 }
 
+function updateMarkerColors() {
+  const previousActiveIndex = getPreviouslyActiveMarkerIndex();
+
+  // If there's a previously active marker that's different from current, move it to inactive
+  if (previousActiveIndex !== null && previousActiveIndex !== currentSlideIndex) {
+    moveMarkerToInactive(previousActiveIndex);
+  }
+
+  // Move current marker to active layer (if it's not already there)
+  if (currentSlideIndex !== previousActiveIndex) {
+    moveMarkerToActive(currentSlideIndex);
+  }
+}
+
+function getPreviouslyActiveMarkerIndex() {
+  const activeSource = map.getSource("active-marker");
+  if (activeSource && activeSource._data && activeSource._data.features.length > 0) {
+    return activeSource._data.features[0].properties.slideIndex;
+  }
+  return null;
+}
+
+function moveMarkerToInactive(slideIndex) {
+  // Get the marker data from the active layer
+  const activeSource = map.getSource("active-marker");
+  if (!activeSource || activeSource._data.features.length === 0) return;
+
+  const markerFeature = activeSource._data.features[0];
+
+  // Add to inactive markers
+  const inactiveSource = map.getSource("inactive-markers");
+  if (inactiveSource) {
+    const inactiveData = inactiveSource._data;
+    inactiveData.features.push({
+      ...markerFeature,
+      properties: {
+        ...markerFeature.properties,
+        isActive: false
+      }
+    });
+    inactiveSource.setData(inactiveData);
+  }
+
+  // Clear the active marker
+  activeSource.setData({
+    type: "FeatureCollection",
+    features: []
+  });
+}
+
+function moveMarkerToActive(slideIndex) {
+  // Find the marker in inactive markers and move it to active
+  const inactiveSource = map.getSource("inactive-markers");
+  if (!inactiveSource) return;
+
+  const inactiveData = inactiveSource._data;
+  const markerIndex = inactiveData.features.findIndex(
+    feature => feature.properties.slideIndex === slideIndex
+  );
+
+  if (markerIndex !== -1) {
+    const markerFeature = inactiveData.features[markerIndex];
+
+    // Set up the active marker source with this marker
+    const activeSource = map.getSource("active-marker");
+    if (activeSource) {
+      activeSource.setData({
+        type: "FeatureCollection",
+        features: [{
+          ...markerFeature,
+          properties: {
+            ...markerFeature.properties,
+            isActive: true
+          }
+        }]
+      });
+    }
+
+    // Remove from inactive markers
+    inactiveData.features.splice(markerIndex, 1);
+    inactiveSource.setData(inactiveData);
+  }
+}
 function updateButtonStates() {
   const prevBtn = document.getElementById("prev-btn");
   const nextBtn = document.getElementById("next-btn");
@@ -428,9 +625,37 @@ document.getElementById("next-btn").addEventListener("click", () => {
 document.getElementById("restart-btn").addEventListener("click", () => {
   if (currentSlideIndex > 0 && !isAnimating) {
     currentSlideIndex = 0;
+
+    // Find the first slide with valid coordinates and fly to it
+    const firstValidSlide = storyData.find((slide) =>
+      isValidLocation(slide.location)
+    );
+
+    if (firstValidSlide) {
+      map.flyTo({
+        center: [
+          parseFloat(firstValidSlide.location.lon),
+          parseFloat(firstValidSlide.location.lat),
+        ],
+        zoom: parseFloat(firstValidSlide.location.zoom) || map.getZoom(),
+        essential: true,
+      });
+    }
+
     updateSlide("none");
   }
 });
+
+// Navigate directly to a specific slide
+function navigateToSlide(targetSlideIndex) {
+  if (targetSlideIndex < 0 || targetSlideIndex >= storyData.length || isAnimating) {
+    return;
+  }
+
+  // Set the target slide index and update everything
+  currentSlideIndex = targetSlideIndex;
+  updateSlide("none");
+}
 
 // Keyboard navigation: left/right arrow keys for prev/next
 document.addEventListener("keydown", (event) => {
