@@ -37,7 +37,7 @@
                         "location": {
                             "lat": -12.046374,
                             "lon": -77.0427934,
-                            "zoom": 2,                            
+                            "zoom": 2,
                             "line": true,
                             "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
@@ -676,25 +676,6 @@
                             "headline": "",
                             "text": "<b>ESMERALDAS</b><br>It is\nthe sixth poorest province of Ecuador bordering&nbsp;Colombia.\nAbout 140 thousand hectares of its cantons Eloy Alfaro and San Lorenzo have\nbeen devastated by illegal mining."
                         }
-                    },
-                    {
-                        "date": "",
-                        "media": {
-                            "url": "",
-                            "caption": "",
-                            "credit": ""
-                        },
-                        "location": {
-                            "lat": 0,
-                            "line": true,
-                            "lon": 0,
-                            "zoom": 1,
-                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
-                        },
-                        "text": {
-                            "headline": "",
-                            "text": ""
-                        }
                     }
                 ],
                 "map_access_token": "pk.eyJ1IjoiaW5mb2FtYXpvbmlhIiwiYSI6InItajRmMGsifQ.JnRnLDiUXSEpgn7bPDzp7g",
@@ -718,6 +699,9 @@
                             "credit": ""
                         },
                         "location": {
+                            "lat": -12.046374,
+                            "lon": -77.0427934,
+                            "zoom": 2,
                             "line": true,
                             "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
@@ -1356,25 +1340,6 @@
                             "headline": "",
                             "text": "<b>ESMERALDAS</b><br>Es\nla sexta provincia más pobre de Ecuador fronteriza&nbsp;con Colombia.\nUnas 140 mil hectáreas de sus cantones Eloy Alfaro y San Lorenzo han\nsido devastadas por la minería ilegal."
                         }
-                    },
-                    {
-                        "date": "",
-                        "media": {
-                            "url": "",
-                            "caption": "",
-                            "credit": ""
-                        },
-                        "location": {
-                            "lat": 0,
-                            "line": true,
-                            "lon": 0,
-                            "zoom": 1,
-                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
-                        },
-                        "text": {
-                            "headline": "",
-                            "text": ""
-                        }
                     }
                 ],
                 "map_access_token": "pk.eyJ1IjoiaW5mb2FtYXpvbmlhIiwiYSI6InItajRmMGsifQ.JnRnLDiUXSEpgn7bPDzp7g",
@@ -1398,6 +1363,9 @@
                             "credit": ""
                         },
                         "location": {
+                            "lat": -12.046374,
+                            "lon": -77.0427934,
+                            "zoom": 2,
                             "line": true,
                             "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
