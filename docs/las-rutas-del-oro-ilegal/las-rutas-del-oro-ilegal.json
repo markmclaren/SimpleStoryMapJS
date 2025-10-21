@@ -35,6 +35,9 @@
                             "credit": ""
                         },
                         "location": {
+                            "lat": -12.046374,
+                            "lon": -77.0427934,
+                            "zoom": 2,                            
                             "line": true,
                             "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
                         },
@@ -2033,28 +2036,8 @@
                             "headline": "",
                             "text": "<b>ESMERALDAS</b><br>É\na sexta província mais pobre do Equador, fronteiriça com a Colômbia.\nCerca de 140 mil hectares de seus cantões Eloy Alfaro e San Lorenzo foram\ndevastados pela mineração ilegal."
                         }
-                    },
-                    {
-                        "date": "",
-                        "media": {
-                            "url": "",
-                            "caption": "",
-                            "credit": ""
-                        },
-                        "location": {
-                            "lat": 0,
-                            "line": true,
-                            "lon": 0,
-                            "zoom": 1,
-                            "icon": "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png"
-                        },
-                        "text": {
-                            "headline": "",
-                            "text": ""
-                        }
                     }
                 ],
-                "map_access_token": "pk.eyJ1IjoiaW5mb2FtYXpvbmlhIiwiYSI6InItajRmMGsifQ.JnRnLDiUXSEpgn7bPDzp7g",
                 "map_type": "mapbox:infoamazonia.kdgaball",
                 "call_to_action_text": "Comece a viagem",
                 "map_as_image": false,
