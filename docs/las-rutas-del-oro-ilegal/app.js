@@ -654,6 +654,20 @@ function clearMapElements() {
   });
   markers = [];
 
+  // Remove marker layers and sources
+  if (map.getLayer("inactive-marker-circles")) {
+    map.removeLayer("inactive-marker-circles");
+  }
+  if (map.getLayer("active-marker-circle")) {
+    map.removeLayer("active-marker-circle");
+  }
+  if (map.getSource("inactive-markers")) {
+    map.removeSource("inactive-markers");
+  }
+  if (map.getSource("active-marker")) {
+    map.removeSource("active-marker");
+  }
+
   // Remove all lines
   lines.forEach((line) => {
     if (map.getLayer(line.id)) {
