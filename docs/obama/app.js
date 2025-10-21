@@ -106,25 +106,25 @@ function createAllLines() {
       const lineId = `line-${i}`;
       const sourceId = `line-source-${i}`;
 
-      // Add source for this line segment
+      // Create great circle line using Turf.js
+      const startPoint = turf.point([
+        parseFloat(currentSlide.location.lon),
+        parseFloat(currentSlide.location.lat)
+      ]);
+      const endPoint = turf.point([
+        parseFloat(nextSlide.location.lon),
+        parseFloat(nextSlide.location.lat)
+      ]);
+
+      // Generate great circle line with appropriate resolution
+      const greatCircleLine = turf.greatCircle(startPoint, endPoint, {
+        npoints: 100 // Number of points to generate for smooth curve
+      });
+
+      // Add source for this great circle line segment
       map.addSource(sourceId, {
         type: "geojson",
-        data: {
-          type: "Feature",
-          geometry: {
-            type: "LineString",
-            coordinates: [
-              [
-                parseFloat(currentSlide.location.lon),
-                parseFloat(currentSlide.location.lat),
-              ],
-              [
-                parseFloat(nextSlide.location.lon),
-                parseFloat(nextSlide.location.lat),
-              ],
-            ],
-          },
-        },
+        data: greatCircleLine,
       });
 
       // Add layer for this line segment with simple styling
